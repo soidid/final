@@ -1,0 +1,66 @@
+<div ng-include="'partials/nav.html'"></div>
+
+<div id="content">
+
+<div class="wrapper q_fixTitle">
+  <div class="q_title_fixed_inner">{{focusQuestionTitle | limitTo:40 }}{{(focusQuestionTitle).length>40?'...':''}}
+
+  <!-- function tab goes here -->
+  <a target="_blank" href="//taipei.wethepeople.tw/#!/question/{{focusQuestion}}"><i class="fa fa-cube"></i></a>
+  <!-- ...................... -->
+
+  </div>
+
+</div>
+
+<div class="wrapper">
+
+<div ng-repeat="(v,i) in issues" ng-if="$index===currentCategoryIndex">
+
+  <h2>{{v}} {{i.length}}</h2>
+
+
+  <div ng-class="{'md-whiteframe-z1':showQuestion(questions[q].id),'q_item_active':showQuestion(questions[q].id)}" class="q_item" ng-repeat="q in i">
+
+    <div class="q_title" ng-class="{'q_title_active':showQuestion(questions[q].id)}" ng-click="toggleQuestion(questions[q].id)">
+      {{questions[q].title | limitTo:40}}{{(questions[q].title).length>40?'...':''}}
+
+    <!-- function tab goes here -->
+        <a target="_blank" href="//taipei.wethepeople.tw/#!/question/{{questions[q].id}}"><i class="fa fa-cube"></i></a>
+    <!-- ...................... -->
+    </div>
+
+    <div class="q_content" ng-if="showQuestion(questions[q].id)">
+        <div class="q_postdate l_inline">{{questions[q].post_timestamp | date:'MM / dd'}}</div>
+        <p class="q_text" ng-repeat="p in questions[q].content">{{p}}</p>
+
+        <div class="r_item" ng-repeat="r in questions[q].responses" ng-if="r.content">
+            <div class="r_img l_inline l_vtop"><img ng-src="images/candidates_avatar/{{r.responser}}.jpg"></div>
+
+            <div class="r_preview l_inline" ng-click="toggleResponse(r.id)">
+              <span ng-if="!showResponse(r.id)">{{r.content | htmlToPlaintext| limitTo:100}}{{(r.content | htmlToPlaintext).length>100?'...':''}}
+              </span>
+              <div class="r_responser_name l_inline" ng-if="showResponse(r.id)">{{candidates[r.responser].name}}回答</div>
+            </div>
+            <div class="r_content l_inline" ng-bind-html="toTrusted(r.content)" ng-if="showResponse(r.id)"></div>
+
+
+            <div class="r_postdate l_inline l_vtop">{{r.postTimeStamp | date:'MM / dd'}}</div>
+
+        </div>
+
+        
+        <div class="q_pending_candidates l_center">
+            <h3 ng-if="questions[q].pendingCount > 0">娃，我們還在等待以下候選人的回覆 :</h3>
+            <h3 ng-if="questions[q].pendingCount === 0">Ya! 所有被提問候選人都已回覆 :)</h3>
+            <span ng-repeat="c in candidates">  
+               <img class="c_img" ng-src="images/candidates_avatar_bw/{{c.id}}.jpg" ng-if="c[questions[q].id]==='pending'">
+            </span>
+        </div>
+   
+    </div>
+
+  </div>
+</div>
+</div>
+</div>

@@ -1,0 +1,9 @@
+<div ng-include="'partials/nav.html'"></div>
+<div id="content">
+<div class="wrapper l_center">
+  <md-card ng-repeat="(v,i) in issues" class="c_item l_inline" ng-click="go('category/'+$index)">
+      <h2>{{v}} {{i.length}}</h2>
+  </md-card>
+</div>
+</div>
+</div>
