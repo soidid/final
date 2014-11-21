@@ -122,7 +122,7 @@ app.controller('IndexCtrl', ['$scope', 'DataService', '$location', '$sce', '$rou
       $scope.issues = data;
   });
 
-  $scope.currentCandidates = ['-JFxrKQo3Qg19zsW73b1', '-JFuCKMKOH_eCspPxRe1', '-JFuCJcAoUNFQY9NEHZ4'];
+  $scope.currentCandidates = ['-JWO0YJbdZOOiPO8X5_t','-JWO0VB8p2n362agsM67', '-JWO-vJujwhnLgcYSdl4', '-JWO0SxVP9GUJwQY-cyq', '-JFxrKQo3Qg19zsW73b1', '-JFuCKMKOH_eCspPxRe1', '-JFuCJcAoUNFQY9NEHZ4'];
   $scope.currentCategoryIndex = parseInt($routeParams.index);
 
   $scope.showQuestion = function(qid){

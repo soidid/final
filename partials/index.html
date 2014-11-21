@@ -1,50 +1,48 @@
-<!--
-<div ng-repeat="q in questions" ng-if="q.signatures_count >= q.signatures_threshold">
-<h2>{{q.title}}</h2>
-{{q.id}}
-{{q.category}}
-<input ng-model="q.issue"></input>
-</div>
- -->
- <!--
-<div class="wrapper">
 
-<div ng-repeat="(v,i) in issues"><h2>{{v}} {{i.length}}</h2>
-  <div ng-repeat="q in i">
-
-    <div class="q_title">{{questions[q].title}}</div>
-    <span ng-repeat="(ck,c) in questions[q].addressing" >
-       <img ng-src="images/candidates_avatar/{{ck}}.jpg" width="30px;" ng-if="c.state==='responded'">
-       <img ng-src="images/candidates_avatar_bw/{{ck}}.jpg" width="30px;" ng-if="c.state==='pending'">
-
-    </span>
-
-  </div>
-</div>
-
-</div>
--->
 
 <div class="wrapper">
-<div ng-repeat="(v,i) in issues"><h2>{{v}} {{i.length}}</h2>
- <span ng-repeat="c in currentCandidates" >
-       {{candidates[c].name}}:
-       {{candidates[c].issues[v].responded}} / {{candidates[c].issues[v].addressed}}
+<div class="md-whiteframe-z1">
+ <div class="q_item">
 
+        <div class="q_item_title">title</div>
+        <div class="q_item_candidate_block">
+            <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
+                <div>{{candidates[c].name}}</div>
+                <img class="c_img" ng-src="images/candidates_avatar/{{c}}.jpg">
+            </div>
+        </div>
+ </div>
 
-    </span>
+<div class="q_item" ng-repeat="(v,i) in issues">
+    <div class="q_item_inner">
+        <div class="q_item_title">{{v}} {{i.length}}</div>
+        <div class="q_item_candidate_block">
 
+              <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
+                  <div ng-if="candidates[c].issues[v].addressed" class="q_candidate_point" ng-class="candidates[c].issues[v].color">{{candidates[c].issues[v].ratio}}</div>
+                  <span ng-if="!candidates[c].issues[v].addressed"> --- </span>
+              </div>
+        </div>
+    </div>
 
-  <div class="md-whiteframe-z1 q_item" ng-repeat="q in i">
+ 
+    <div ng-repeat="q in i">
+      <div class="q_item_inner">
+        <div class="q_item_title">{{questions[q].title | limitTo:40}}</div>
+        <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
+            
+            <div class="q_candidate_point">
+                <span ng-if="candidates[c].questions[questions[q].id]==='responded'" class="text_green">V</span>
+                <span ng-if="candidates[c].questions[questions[q].id]==='pending'" class="text_red">X</span>
+                <span ng-if="candidates[c].questions[questions[q].id]==='notasked'">---</span>
+            </div>
+             
+        </div>
+      </div>
+    </div>
+ 
+</div>
 
-    <div class="q_title">{{questions[q].title | limitTo:40}}</div>
- <span ng-repeat="c in currentCandidates" >
-    <img class="c_img" ng-src="images/candidates_avatar/{{c}}.jpg" ng-if="candidates[c].questions[questions[q].id]==='responded'">
-      <img class="c_img" ng-src="images/candidates_avatar_bw/{{c}}.jpg" ng-if="candidates[c].questions[questions[q].id]==='pending'">
-      <img class="c_img" src="images/candidate-not-found.jpg" ng-if="candidates[c].questions[questions[q].id]==='notasked'">
-  </span>
-   
-  </div>
 </div>
 </div>
 

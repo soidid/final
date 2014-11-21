@@ -14,7 +14,8 @@ function getData(path){
     return deferred.promise;
 };
 
-var currentCandidates = ['-JFxrKQo3Qg19zsW73b1', '-JFuCKMKOH_eCspPxRe1', '-JFuCJcAoUNFQY9NEHZ4'];
+var currentCandidates = ['-JWO0YJbdZOOiPO8X5_t','-JWO0VB8p2n362agsM67', '-JWO-vJujwhnLgcYSdl4', '-JWO0SxVP9GUJwQY-cyq', '-JFxrKQo3Qg19zsW73b1', '-JFuCKMKOH_eCspPxRe1', '-JFuCJcAoUNFQY9NEHZ4'];
+  //['-JFxrKQo3Qg19zsW73b1', '-JFuCKMKOH_eCspPxRe1', '-JFuCJcAoUNFQY9NEHZ4'];
 
 var parsed_questions = {};
 var parsed_issues = {};
@@ -73,6 +74,7 @@ getData('questions').then(function(questions){
                     }
 
                     currentCandidates.map(function (ccid) {
+                        // TODO: using cid cuase bug. ccid: candidate id
                         // save to candidate data - issues count
                         var issue_name = issues[key];
                         if(!parsed_candidates[ccid].issues[issue_name]){
@@ -121,6 +123,30 @@ getData('questions').then(function(questions){
 
             }
             //End of question processing
+
+
+            //Count ratio of each issue 
+            currentCandidates.map(function (ccid) {
+                for(var key in parsed_candidates[ccid].issues){
+                    parsed_candidates[ccid].issues[key].ratio = Math.round(parsed_candidates[ccid].issues[key].responded / parsed_candidates[ccid].issues[key].addressed * 100);
+                    if(parsed_candidates[ccid].issues[key].ratio >= 70){
+                      parsed_candidates[ccid].issues[key].color = 'bg_green';
+                    
+                    }else if(parsed_candidates[ccid].issues[key].ratio >=40){
+                      parsed_candidates[ccid].issues[key].color = 'bg_yellow';
+
+                    }else {
+                      parsed_candidates[ccid].issues[key].color = 'bg_red';
+
+                    }
+                }
+                
+               
+                   
+
+                
+            });                  
+          
 
 
 

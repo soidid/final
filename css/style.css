@@ -8,7 +8,8 @@ body {
   padding: 0px;
   text-rendering: optimizeLegibility;
   min-width: 320px;
-  background: rgb(236,236,236);
+  /* background: rgb(236,236,236); */
+  background: #efedeb;
   color: rgb(55,53,54);
   font-size: 16px;
   
@@ -50,32 +51,29 @@ a {
   padding:8px;
   box-sizing: border-box;
   position: relative;
-  background: rgb(236,236,236);
+ /* background: rgb(236,236,236); */
+ background: #efedeb;
 
 }
+.nav_home {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-size: 20px;
+  cursor: pointer;
 
+}
+#navigation {
+  height: 50px;
+  background: rgba(10,10,10,.8);
+  color: white;
+}
 #content {
 	margin-top: 50px;
 }
-
-
-/* ------------------------------------------------------------ */
-/* material test
-/* ------------------------------------------------------------ */
-
-header {
-  z-index: 100;
-  background: #009688;
-  color: white;
-  height: 50px;
-  width: 100%;
-  position: fixed;
-  top: 0px;
-  box-sizing: border-box;
-  padding: 6px;
-  text-align: center;
-}
-
+/* ----------------------------------
+     index page
+   ---------------------------------- */
 .q_item {
   box-shadow: 0 1px 2px rgba(0,0,0,.2); 
   margin-bottom: 1px;
@@ -86,17 +84,79 @@ header {
   transition: .2s;
   transition-duration: .5s;
 
-  padding: 10px;
+  
   width: 100%;
   position: relative;
 
   background: white;
 }
+
+.q_item_inner {
+  min-height: 40px;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.2); 
+
+  margin-bottom: 1px;
+
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -webkit-transition: .2s;
+  transition: .2s;
+  transition-duration: .5s;
+}
+.q_item_inner:hover {
+  background: rgb(220,220,220);
+}
+
 .c_img {
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  
+}
+.q_item_title {
+  width: 50%;
+  vertical-align: top;
+  display: inline-block;
+}
+.q_item_candidate_block{
+  width: 38%;
+  vertical-align: top;
+  display: inline-block;
+}
+.q_item_candidate {
+  text-align: center;
+  width: 50px;
+  font-size: 14px;
+  display: inline-block;
+}
+.bg_green {
+  background: #5de05b;
+}
+.bg_yellow {
+  background: #f8e755;
+}
+.bg_red {
+  background: #e35656;
+}
+.text_green {
+  color: #4CAF50;
+}
+.text_yellow {
+  color: #FFEB3B;
+}
+.text_red {
+  color: #F44336;
+}
+.q_candidate_point {
+  padding-top: 7px;
+  font-size: 12px;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 auto;
 }
 
 
