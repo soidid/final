@@ -37,19 +37,25 @@
             },
             "交通": {
                 "responded": 0,
-                "addressed": 11,
+                "addressed": 6,
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "文化 & 教育": {
+            "藝術人文": {
                 "responded": 0,
                 "addressed": 2,
                 "ratio": 0,
                 "color": "bg_red"
             },
+            "交通：道路坑洞": {
+                "responded": 0,
+                "addressed": 4,
+                "ratio": 0,
+                "color": "bg_red"
+            },
             "環境": {
                 "responded": 0,
-                "addressed": 7,
+                "addressed": 8,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -75,12 +81,6 @@
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
-            },
-            "文化": {
-                "responded": 0,
-                "addressed": 0,
-                "ratio": null,
                 "color": "bg_red"
             }
         },
@@ -170,21 +170,27 @@
                 "color": "bg_red"
             },
             "交通": {
-                "responded": 5,
-                "addressed": 11,
-                "ratio": 45,
-                "color": "bg_yellow"
+                "responded": 2,
+                "addressed": 6,
+                "ratio": 33,
+                "color": "bg_red"
             },
-            "文化 & 教育": {
+            "藝術人文": {
                 "responded": 0,
                 "addressed": 2,
                 "ratio": 0,
                 "color": "bg_red"
             },
+            "交通：道路坑洞": {
+                "responded": 3,
+                "addressed": 4,
+                "ratio": 75,
+                "color": "bg_green"
+            },
             "環境": {
                 "responded": 2,
-                "addressed": 6,
-                "ratio": 33,
+                "addressed": 8,
+                "ratio": 25,
                 "color": "bg_red"
             },
             "食品安全": {
@@ -206,12 +212,6 @@
                 "color": "bg_green"
             },
             "酒駕": {
-                "responded": 0,
-                "addressed": 1,
-                "ratio": 0,
-                "color": "bg_red"
-            },
-            "文化": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
