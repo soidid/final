@@ -26,7 +26,7 @@
 <div class="q_item" ng-repeat="v in issues" ng-class="{'md-whiteframe-z1':showQuestion(q.id),'q_item_active':isFocusIssue(v.name)}" ng-click="toggleIssue(v.name)">
 
     <div class="q_item_inner" ng-class="{'q_item_inner_active':isFocusIssue(v.name)}">
-        <div class="q_item_title_block"><div class="q_item_title"><div ng-class="{'q_item_title_active':isFocusIssue(v.name)}">{{v.name}} {{v.list.length}}  
+        <div class="q_item_title_block"><div class="q_item_title q_item_title_topic"><div ng-class="{'q_item_title_active':isFocusIssue(v.name)}">{{v.name}} {{v.list.length}}  
            <span class="q_item_title_icon" ng-if="!isFocusIssue(v.name)">  <i class="fa fa-angle-double-down"></i></span>
            <span class="q_item_title_icon" ng-if="isFocusIssue(v.name)">  <i class="fa fa-angle-double-up"></i></span>
 
@@ -43,13 +43,13 @@
     <div ng-if="showCategoryQuestions || isFocusIssue(v.name)" ng-click="$event.stopPropagation()">
     <!-- display related questions -->
     <div ng-repeat="q in v.list">
-      <div class="q_item_inner" ng-click="openQuestionInNewWindow(questions[q].id)">
+      <div class="q_item_inner">
         <div class="q_item_title_block"><div class="q_item_title">{{questions[q].title | limitTo:40}}{{(questions[q].title.length > 40 ? '...' :  ' ' )}}</div></div>
         <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
             
-            <div class="q_candidate_point">
-                <span ng-if="candidates[c].questions[questions[q].id]==='responded'" class="text_green">V</span>
-                <span ng-if="candidates[c].questions[questions[q].id]==='pending'" class="text_red">X</span>
+            <div class="q_candidate_point" ng-click="openQuestionInNewWindow(questions[q].id, c)">
+                <span ng-if="candidates[c].questions[questions[q].id]==='responded'" class="text_green q_candidate_point_icon"><i class="fa fa-check-square-o"></i></span>
+                <span ng-if="candidates[c].questions[questions[q].id]==='pending'" class="text_red q_candidate_point_icon"><i class="fa fa-square-o"></i></span>
                 <span ng-if="candidates[c].questions[questions[q].id]==='notasked'">---</span>
             </div>
              

@@ -111,7 +111,7 @@ a {
 }
 .q_item_inner {
   min-height: 40px;
-  cursor: pointer;
+  
   width: 100%;
   padding: 10px 0px;
   box-shadow: 0 1px 0px rgba(0,0,0,.12);
@@ -158,6 +158,11 @@ a {
 }
 .q_item_title {
   padding-left: 10px;
+}
+.q_item_title_topic {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
 }
 .q_item_title_active {
   font-weight: 700;
@@ -236,6 +241,11 @@ a {
   height: 30px;
   border-radius: 50%;
   margin: 0 auto;
+
+  cursor: pointer;
+}
+.q_candidate_point_icon {
+  font-size: 18px;
 }
 .button {
   -moz-transition: .2s;

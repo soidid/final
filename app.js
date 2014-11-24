@@ -222,8 +222,8 @@ app.controller('IndexCtrl', ['$scope', 'DataService', '$location', '$sce', '$rou
     
   };
 
-  $scope.openQuestionInNewWindow =function( qid ) {
-      window.open("http://taipei.wethepeople.tw/#!/question/"+qid);
+  $scope.openQuestionInNewWindow =function( qid, cid ) {
+      window.open("http://taipei.wethepeople.tw/#!/question/"+qid+'/'+cid);
 
   };
 
