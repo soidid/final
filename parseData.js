@@ -60,7 +60,15 @@ getData('questions').then(function(questions){
                               currentResponses.push(responses[key][rkey]);
                            }
                         }
-                        questions[key].responses = currentResponses;
+                        
+                        // Only use reqired fields in response data
+                        //questions[key].responses = currentResponses;
+                        var res_item = {};
+                        res_item.content = currentResponses.content;
+                        res_item.id = currentResponses.id;
+                        res_item.qid = currentResponses.qid;
+                        res_item.post_timestamp = currentResponses.postTimeStamp;
+
                     }
 
                     if(issues[key]){
@@ -160,7 +168,7 @@ getData('questions').then(function(questions){
                var item = {};
                item.name = v;
                item.list = parsed_issues[v];
-               
+
                //console.log(item);
                sorted_parsed_issues.push(item);
                
