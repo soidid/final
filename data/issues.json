@@ -13,8 +13,12 @@
         ],
         "ngo": [
             {
-                "title": "環境資訊中心 2014 選舉 x 環境",
+                "title": "環境資訊中心：2014 選舉 x 環境",
                 "link": "http://e-info.org.tw/taxonomy/term/41579"
+            },
+            {
+                "title": "全國廢核行動平台：要求新北市議員承諾核電除役行動",
+                "link": "https://www.facebook.com/media/set/?set=a.387044848129054.1073741867.132350033598538&type=3"
             }
         ]
     },
@@ -28,11 +32,47 @@
         ]
     },
     {
+        "name": "公民權利 & 透明",
+        "list": [
+            "-JGJqnXoXbrVjJr_p9oh",
+            "-JR1946bXDrEhKrIEjYL",
+            "-JSDFAIQ-KRcWEn0rrV_"
+        ],
+        "ngo": [
+            {
+                "title": "公督盟議會改革承諾書簽署名單",
+                "link": "https://www.facebook.com/ccw.org.tw/photos/a.203916478959.131785.154580453959/10152858746458960/?type=1&theater"
+            }
+        ]
+    },
+    {
         "name": "居住正義",
         "list": [
             "-JGK-T5jHb2a-Kyi88sp",
             "-JGKIKIjsNfR2rE915U0",
             "-JVLw89pQs-Y_J0QhYVC"
+        ]
+    },
+    {
+        "name": "性別",
+        "list": [
+            "-JGKEi4-kFX6_nYS6PHc",
+            "-JGKYFxVazwevt3raXRU",
+            "-JRweFofIEX8ud5mLRfU"
+        ],
+        "ngo": [
+            {
+                "title": "婦女新知基金會:地方選舉不空頭，女性政策落地生根",
+                "link": "https://www.facebook.com/awakeningfoundation/photos/a.469597772104.243507.367586062104/10152401901842105/?type=1&permPage=1"
+            },
+            {
+                "title": "同志人權法案遊說聯盟：2014 縣市長候選人表態",
+                "link": "http://www.pridewatch.tw/beta/"
+            },
+            {
+                "title": "台灣守護家庭：各縣市長候選人性解放議題態度",
+                "link": "https://taiwanfamily.com/"
+            }
         ]
     },
     {
@@ -44,17 +84,16 @@
         ]
     },
     {
-        "name": "婚姻平權",
-        "list": [
-            "-JGKEi4-kFX6_nYS6PHc",
-            "-JGKYFxVazwevt3raXRU"
-        ]
-    },
-    {
         "name": "核能",
         "list": [
             "-JGLNT4jKurztnQUwGeQ",
             "-JHEwtF4a6t6LSmTpqeB"
+        ],
+        "ngo": [
+            {
+                "title": "全國廢核行動平台：要求新北市議員承諾核電除役行動",
+                "link": "https://www.facebook.com/media/set/?set=a.387044848129054.1073741867.132350033598538&type=3"
+            }
         ]
     },
     {
@@ -62,25 +101,6 @@
         "list": [
             "-JL2I661kBj5IFY2kipw",
             "-JRxIterKOXSFx6zrmIm"
-        ]
-    },
-    {
-        "name": "公民權利",
-        "list": [
-            "-JR1946bXDrEhKrIEjYL",
-            "-JSDFAIQ-KRcWEn0rrV_"
-        ]
-    },
-    {
-        "name": "透明收支",
-        "list": [
-            "-JGJqnXoXbrVjJr_p9oh"
-        ]
-    },
-    {
-        "name": "青年處境",
-        "list": [
-            "-JGJj9MVjeU7ezA_XC5R"
         ]
     },
     {
@@ -96,9 +116,9 @@
         ]
     },
     {
-        "name": "性別",
+        "name": "青年處境",
         "list": [
-            "-JRweFofIEX8ud5mLRfU"
+            "-JGJj9MVjeU7ezA_XC5R"
         ]
     },
     {
@@ -111,6 +131,12 @@
         "name": "食品安全",
         "list": [
             "-JZ2J39V7Z-jvbm8H43Q"
+        ],
+        "ngo": [
+            {
+                "title": "校園午餐搞非基",
+                "link": "https://www.facebook.com/nogmolunch"
+            }
         ]
     },
     {

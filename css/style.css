@@ -137,7 +137,15 @@ a {
 .q_item_inner_active {
   background: rgb(230,230,230);
 }
-
+.q_item_ngo {
+  padding: 10px;
+  min-height: 150px;
+}
+.q_item_ngo_title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 .c_img {
   width: 40px;
   height: 40px;

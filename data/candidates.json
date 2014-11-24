@@ -17,9 +17,9 @@
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "透明收支": {
+            "公民權利 & 透明": {
                 "responded": 0,
-                "addressed": 1,
+                "addressed": 3,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -41,9 +41,9 @@
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "婚姻平權": {
+            "性別": {
                 "responded": 0,
-                "addressed": 2,
+                "addressed": 3,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -72,18 +72,6 @@
                 "color": "bg_red"
             },
             "動物保護": {
-                "responded": 0,
-                "addressed": 1,
-                "ratio": 0,
-                "color": "bg_red"
-            },
-            "公民權利": {
-                "responded": 0,
-                "addressed": 2,
-                "ratio": 0,
-                "color": "bg_red"
-            },
-            "性別": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
@@ -163,9 +151,9 @@
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "透明收支": {
+            "公民權利 & 透明": {
                 "responded": 0,
-                "addressed": 1,
+                "addressed": 3,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -187,9 +175,9 @@
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "婚姻平權": {
+            "性別": {
                 "responded": 0,
-                "addressed": 2,
+                "addressed": 3,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -218,18 +206,6 @@
                 "color": "bg_red"
             },
             "動物保護": {
-                "responded": 0,
-                "addressed": 1,
-                "ratio": 0,
-                "color": "bg_red"
-            },
-            "公民權利": {
-                "responded": 0,
-                "addressed": 2,
-                "ratio": 0,
-                "color": "bg_red"
-            },
-            "性別": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
@@ -309,11 +285,11 @@
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "透明收支": {
+            "公民權利 & 透明": {
                 "responded": 1,
-                "addressed": 1,
-                "ratio": 100,
-                "color": "bg_green"
+                "addressed": 3,
+                "ratio": 33,
+                "color": "bg_red"
             },
             "居住正義": {
                 "responded": 2,
@@ -333,9 +309,9 @@
                 "ratio": 57,
                 "color": "bg_yellow"
             },
-            "婚姻平權": {
-                "responded": 2,
-                "addressed": 2,
+            "性別": {
+                "responded": 3,
+                "addressed": 3,
                 "ratio": 100,
                 "color": "bg_green"
             },
@@ -368,18 +344,6 @@
                 "addressed": 1,
                 "ratio": 0,
                 "color": "bg_red"
-            },
-            "公民權利": {
-                "responded": 0,
-                "addressed": 2,
-                "ratio": 0,
-                "color": "bg_red"
-            },
-            "性別": {
-                "responded": 1,
-                "addressed": 1,
-                "ratio": 100,
-                "color": "bg_green"
             },
             "教育": {
                 "responded": 1,
@@ -455,9 +419,9 @@
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "透明收支": {
+            "公民權利 & 透明": {
                 "responded": 0,
-                "addressed": 1,
+                "addressed": 3,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -479,9 +443,9 @@
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "婚姻平權": {
+            "性別": {
                 "responded": 0,
-                "addressed": 2,
+                "addressed": 3,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -510,18 +474,6 @@
                 "color": "bg_red"
             },
             "動物保護": {
-                "responded": 0,
-                "addressed": 1,
-                "ratio": 0,
-                "color": "bg_red"
-            },
-            "公民權利": {
-                "responded": 0,
-                "addressed": 2,
-                "ratio": 0,
-                "color": "bg_red"
-            },
-            "性別": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
@@ -601,9 +553,9 @@
                 "ratio": 100,
                 "color": "bg_green"
             },
-            "透明收支": {
-                "responded": 1,
-                "addressed": 1,
+            "公民權利 & 透明": {
+                "responded": 3,
+                "addressed": 3,
                 "ratio": 100,
                 "color": "bg_green"
             },
@@ -625,11 +577,11 @@
                 "ratio": 71,
                 "color": "bg_green"
             },
-            "婚姻平權": {
+            "性別": {
                 "responded": 2,
-                "addressed": 2,
-                "ratio": 100,
-                "color": "bg_green"
+                "addressed": 3,
+                "ratio": 67,
+                "color": "bg_yellow"
             },
             "勞工": {
                 "responded": 3,
@@ -660,18 +612,6 @@
                 "addressed": 1,
                 "ratio": 100,
                 "color": "bg_green"
-            },
-            "公民權利": {
-                "responded": 2,
-                "addressed": 2,
-                "ratio": 100,
-                "color": "bg_green"
-            },
-            "性別": {
-                "responded": 0,
-                "addressed": 1,
-                "ratio": 0,
-                "color": "bg_red"
             },
             "教育": {
                 "responded": 0,
@@ -747,9 +687,9 @@
                 "ratio": 100,
                 "color": "bg_green"
             },
-            "透明收支": {
+            "公民權利 & 透明": {
                 "responded": 0,
-                "addressed": 1,
+                "addressed": 3,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -771,9 +711,9 @@
                 "ratio": 29,
                 "color": "bg_red"
             },
-            "婚姻平權": {
+            "性別": {
                 "responded": 0,
-                "addressed": 2,
+                "addressed": 3,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -806,18 +746,6 @@
                 "addressed": 2,
                 "ratio": 100,
                 "color": "bg_green"
-            },
-            "公民權利": {
-                "responded": 0,
-                "addressed": 2,
-                "ratio": 0,
-                "color": "bg_red"
-            },
-            "性別": {
-                "responded": 0,
-                "addressed": 1,
-                "ratio": 0,
-                "color": "bg_red"
             },
             "教育": {
                 "responded": 1,
@@ -893,11 +821,11 @@
                 "ratio": 100,
                 "color": "bg_green"
             },
-            "透明收支": {
+            "公民權利 & 透明": {
                 "responded": 1,
-                "addressed": 1,
-                "ratio": 100,
-                "color": "bg_green"
+                "addressed": 3,
+                "ratio": 33,
+                "color": "bg_red"
             },
             "居住正義": {
                 "responded": 2,
@@ -917,9 +845,9 @@
                 "ratio": 43,
                 "color": "bg_yellow"
             },
-            "婚姻平權": {
-                "responded": 2,
-                "addressed": 2,
+            "性別": {
+                "responded": 3,
+                "addressed": 3,
                 "ratio": 100,
                 "color": "bg_green"
             },
@@ -950,18 +878,6 @@
             "動物保護": {
                 "responded": 2,
                 "addressed": 2,
-                "ratio": 100,
-                "color": "bg_green"
-            },
-            "公民權利": {
-                "responded": 0,
-                "addressed": 2,
-                "ratio": 0,
-                "color": "bg_red"
-            },
-            "性別": {
-                "responded": 1,
-                "addressed": 1,
                 "ratio": 100,
                 "color": "bg_green"
             },
