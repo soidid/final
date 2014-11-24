@@ -62,12 +62,20 @@ getData('questions').then(function(questions){
                         }
                         
                         // Only use reqired fields in response data
-                        //questions[key].responses = currentResponses;
-                        var res_item = {};
-                        res_item.content = currentResponses.content;
-                        res_item.id = currentResponses.id;
-                        res_item.qid = currentResponses.qid;
-                        res_item.post_timestamp = currentResponses.postTimeStamp;
+                        // Will save all the res: questions[key].responses = currentResponses;
+                        var choppedResponses = {};
+                        for(var rkey in currentResponses){
+                          if(!choppedResponses[rkey])
+                             choppedResponses[rkey] = {};
+                          choppedResponses[rkey].content = currentResponses[rkey].content;
+                          choppedResponses[rkey].id = currentResponses[rkey].id;
+                          choppedResponses[rkey].qid = currentResponses[rkey].qid;
+                          choppedResponses[rkey].post_timestamp = currentResponses[rkey].postTimeStamp;
+                          
+                        }
+
+                        
+                        questions[key].responses = choppedResponses;
 
                     }
 
