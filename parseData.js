@@ -237,7 +237,7 @@ function parse(city){
 
 }
 
-//parse('tp');
-parse('tc');
+parse('tp');
+//parse('tc');
 
 
