@@ -1,34 +1,45 @@
-
-
+<div id="content">
 <div class="wrapper">
-<div class="md-whiteframe-z1">
- <div class="q_item">
+<!--
+<div class="l_center">
+    <div class="toggleCategoryQuestionBtn button" ng-click="toggleShowCategoryQuestions()">toggle!</div>
+</div>
 
-        <div class="q_item_title">title</div>
-        <div class="q_item_candidate_block">
-            <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
-                <div>{{candidates[c].name}}</div>
-                <img class="c_img" ng-src="images/candidates_avatar/{{c}}.jpg">
-            </div>
-        </div>
+<div class="slider_wrap">
+    <input type="checkbox" id="s1" ng-click="toggleSignFilter()"/>
+    <label class="slider" for="s1"></label>
+</div>
+-->
+ <div ng-class="{'q_label_item_fix':!scroll,'q_label_item_nav':scroll}">
+ <div class="wrapper">
+      
+      <div class="q_item_title_block"><div class="q_label_item_title">問題分類 / 總題數</div></div>
+      <div class="q_item_candidate_block">
+          <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
+              <div>{{candidates[c].name}}</div>
+              <img class="c_img" ng-src="images/candidates_avatar/{{c}}.jpg">
+          </div>
+      </div>
+</div>
  </div>
 
-<div class="q_item" ng-repeat="(v,i) in issues">
-    <div class="q_item_inner">
-        <div class="q_item_title">{{v}} {{i.length}}</div>
+<div class="q_item" ng-repeat="v in issues" ng-class="{'md-whiteframe-z1':showQuestion(q.id),'q_item_active':isFocusIssue(v.name)}" ng-click="toggleIssue(v.name)">
+
+    <div class="q_item_inner" ng-class="{'q_item_inner_active':isFocusIssue(v.name)}">
+        <div class="q_item_title_block"><div class="q_item_title"><div ng-class="{'q_item_title_active':isFocusIssue(v.name)}">{{v.name}} {{v.list.length}}</div></div></div>
         <div class="q_item_candidate_block">
 
               <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
-                  <div ng-if="candidates[c].issues[v].addressed" class="q_candidate_point" ng-class="candidates[c].issues[v].color">{{candidates[c].issues[v].ratio}}</div>
-                  <span ng-if="!candidates[c].issues[v].addressed"> --- </span>
+                  <div ng-if="candidates[c].issues[v.name].addressed" class="q_candidate_point" ng-class="candidates[c].issues[v.name].color">{{candidates[c].issues[v.name].ratio}}</div>
+                  <span ng-if="!candidates[c].issues[v.name].addressed"> --- </span>
               </div>
         </div>
     </div>
 
  
-    <div ng-repeat="q in i">
-      <div class="q_item_inner">
-        <div class="q_item_title">{{questions[q].title | limitTo:40}}</div>
+    <div ng-repeat="q in v.list" ng-if="showCategoryQuestions || isFocusIssue(v.name)" ng-click="$event.stopPropagation()">
+      <div class="q_item_inner" ng-click="openQuestionInNewWindow(questions[q].id)">
+        <div class="q_item_title_block"><div class="q_item_title">{{questions[q].title | limitTo:40}}</div></div>
         <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
             
             <div class="q_candidate_point">
@@ -45,7 +56,6 @@
 
 </div>
 </div>
-
 
 
 

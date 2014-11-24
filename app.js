@@ -182,9 +182,49 @@ app.controller('IndexCtrl', ['$scope', 'DataService', '$location', '$sce', '$rou
   });
 
   $scope.pendingFilter = function(n){
-     controller.log(n.state);
-     if(n.state === 'pending')
+    controller.log(n.state);
+    if(n.state === 'pending')
         return n;
+  };
+
+  $scope.toggleShowCategoryQuestions = function () {
+    $scope.showCategoryQuestions = !$scope.showCategoryQuestions;
+  };
+
+  $scope.toggleIssue = function (name) {
+    if($scope.isFocusIssue(name)){
+      $scope.focusIssue = null;
+
+    }else{
+      $scope.focusIssue = name;
+    }
+    
+  };
+  $scope.isFocusIssue = function (name) {
+    return $scope.focusIssue === name;
+  };
+
+  window.onscroll = function() {
+      var scrollTop = document.body.scrollTop;
+      console.log(scrollTop);
+      var beforeScroll = $scope.scroll;
+      if(scrollTop > 50){
+         $scope.scroll = true;
+
+      } else {
+         $scope.scroll = false;
+      }
+      //console.log($scope.scroll);
+      
+      if(beforeScroll !== $scope.scroll)
+        $scope.$apply();
+         
+    
+  };
+
+  $scope.openQuestionInNewWindow =function( qid ) {
+      window.open("http://taipei.wethepeople.tw/#!/question/"+qid);
+
   };
 
 

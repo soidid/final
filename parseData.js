@@ -64,11 +64,11 @@ getData('questions').then(function(questions){
                     }
 
                     if(issues[key]){
-                      var issueName = issues[key];
+                      var issueName = issues[key].issue;
                       if(!parsed_issues[issueName])
                           parsed_issues[issueName] = [];
 
-                      questions[key].issue = issues[key];
+                      questions[key].issue = issueName;
                       parsed_issues[issueName].push(questions[key].id);
 
                     }
@@ -76,7 +76,7 @@ getData('questions').then(function(questions){
                     currentCandidates.map(function (ccid) {
                         // TODO: using cid cuase bug. ccid: candidate id
                         // save to candidate data - issues count
-                        var issue_name = issues[key];
+                        var issue_name = issues[key].issue;
                         if(!parsed_candidates[ccid].issues[issue_name]){
                            parsed_candidates[ccid].issues[issue_name] = {};
                            parsed_candidates[ccid].issues[issue_name].responded = 0;
@@ -84,7 +84,6 @@ getData('questions').then(function(questions){
 
                         }
                             
-
                         // save to candidate data - questions
                         if(questions[key].addressing[ccid]){
                           var candidate_state = questions[key].addressing[ccid].state;
@@ -140,27 +139,47 @@ getData('questions').then(function(questions){
 
                     }
                 }
-                
+
+            });    
+
+            //Sort issues
+             
+            var issue_sorting_order = Object.keys(parsed_issues).sort(function (a, b) {
+              return parsed_issues[b].length - parsed_issues[a].length;
+            })
+
+            //Move other to the end of array
+            var idx_other = issue_sorting_order.indexOf('其他');
+            issue_sorting_order.splice(idx_other,1);
+            issue_sorting_order.push('其他');
+            console.log(issue_sorting_order);
+
+            //Assign order to final data
+            var sorted_parsed_issues = [];
+            issue_sorting_order.map(function (v, i) {
+               var item = {};
+               item.name = v;
+               item.list = parsed_issues[v];
                
-                   
-
-                
-            });                  
+               //console.log(item);
+               sorted_parsed_issues.push(item);
+               
+            })
+            console.log(sorted_parsed_issues);
+            
+            
           
-
-
-
 
             console.log("\n");
             //Save to json
-            fs.writeFile("data/questions.json", JSON.stringify(parsed_questions), function(err) {
+            fs.writeFile("data/questions.json", JSON.stringify(parsed_questions, null, 4), function(err) {
                 if(err) {
                     console.log(err);
                 } else {
                     console.log(" - File saved : question.");  
                 }
             }); 
-            fs.writeFile("data/candidates.json", JSON.stringify(parsed_candidates), function(err) {
+            fs.writeFile("data/candidates.json", JSON.stringify(parsed_candidates, null, 4), function(err) {
                 if(err) {
                     console.log(err);
                 } else {
@@ -168,7 +187,7 @@ getData('questions').then(function(questions){
                 }
             }); 
 
-            fs.writeFile("data/issues.json", JSON.stringify(parsed_issues), function(err) {
+            fs.writeFile("data/issues.json", JSON.stringify(sorted_parsed_issues, null, 4), function(err) {
                 if(err) {
                     console.log(err);
                 } else {
