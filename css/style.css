@@ -55,14 +55,23 @@ a {
   /* background: #efedeb; */
 
 }
-.nav_home {
-  position: absolute;
-  top: 10px;
-  left: 15px;
-  font-size: 20px;
-  cursor: pointer;
 
+.nav_item_logo {
+  width: 120px;
 }
+.nav_item {
+  height: 50px;
+  cursor: pointer;
+  display: inline-block;
+  min-width: 70px;
+  padding: 13px 10px;
+  text-align: center;
+  font-weight: 600;
+}
+.nav_item:hover {
+  background: rgba(255,255,255,0.1);
+}
+
 #navigation {
   height: 50px;
   background: rgba(10,10,10,.8);
@@ -114,6 +123,12 @@ a {
   -webkit-transition: .2s;
   transition: .2s;
   transition-duration: .5s;
+}
+.q_item_title_icon {
+  opacity: 0;
+}
+.q_item:hover .q_item_title_icon {
+  opacity: 1; 
 }
 
 .q_item_inner:hover {

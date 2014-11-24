@@ -208,7 +208,7 @@ app.controller('IndexCtrl', ['$scope', 'DataService', '$location', '$sce', '$rou
       var scrollTop = document.body.scrollTop;
       console.log(scrollTop);
       var beforeScroll = $scope.scroll;
-      if(scrollTop > 50){
+      if(scrollTop > 0){
          $scope.scroll = true;
 
       } else {

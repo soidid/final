@@ -24,6 +24,7 @@ var parsed_candidates = {};
 getData('questions').then(function(questions){
     getData('responses').then(function(responses){
         getData('issues').then(function(issues){
+        getData('ngo-issues').then(function(ngoissues){
         getData('candidates').then(function(candidates){
 
             //Save candidates' basic info
@@ -176,6 +177,7 @@ getData('questions').then(function(questions){
                var item = {};
                item.name = v;
                item.list = parsed_issues[v];
+               item.ngo = ngoissues[v];
 
                //console.log(item);
                sorted_parsed_issues.push(item);
@@ -212,6 +214,7 @@ getData('questions').then(function(questions){
             }); 
             
         });          
+        });
         });
 
     });

@@ -13,7 +13,7 @@
  <div ng-class="{'q_label_item_fix':!scroll,'q_label_item_nav':scroll}">
  <div class="wrapper">
       
-      <div class="q_item_title_block"><div class="q_label_item_title">問題分類 / 總題數</div></div>
+      <div class="q_item_title_block"><div class="q_label_item_title">問題分類 / 總題數 </div></div>
       <div class="q_item_candidate_block">
           <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
               <div>{{candidates[c].name}}</div>
@@ -26,7 +26,11 @@
 <div class="q_item" ng-repeat="v in issues" ng-class="{'md-whiteframe-z1':showQuestion(q.id),'q_item_active':isFocusIssue(v.name)}" ng-click="toggleIssue(v.name)">
 
     <div class="q_item_inner" ng-class="{'q_item_inner_active':isFocusIssue(v.name)}">
-        <div class="q_item_title_block"><div class="q_item_title"><div ng-class="{'q_item_title_active':isFocusIssue(v.name)}">{{v.name}} {{v.list.length}}</div></div></div>
+        <div class="q_item_title_block"><div class="q_item_title"><div ng-class="{'q_item_title_active':isFocusIssue(v.name)}">{{v.name}} {{v.list.length}}  
+           <span class="q_item_title_icon" ng-if="!isFocusIssue(v.name)">  <i class="fa fa-angle-double-down"></i></span>
+           <span class="q_item_title_icon" ng-if="isFocusIssue(v.name)">  <i class="fa fa-angle-double-up"></i></span>
+
+        </div></div></div>
         <div class="q_item_candidate_block">
 
               <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
@@ -36,10 +40,11 @@
         </div>
     </div>
 
- 
-    <div ng-repeat="q in v.list" ng-if="showCategoryQuestions || isFocusIssue(v.name)" ng-click="$event.stopPropagation()">
+    <div ng-if="showCategoryQuestions || isFocusIssue(v.name)" ng-click="$event.stopPropagation()">
+    <!-- display related questions -->
+    <div ng-repeat="q in v.list">
       <div class="q_item_inner" ng-click="openQuestionInNewWindow(questions[q].id)">
-        <div class="q_item_title_block"><div class="q_item_title">{{questions[q].title | limitTo:40}}</div></div>
+        <div class="q_item_title_block"><div class="q_item_title">{{questions[q].title | limitTo:40}}{{(questions[q].title.length > 40 ? '...' :  ' ' )}}</div></div>
         <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
             
             <div class="q_candidate_point">
@@ -50,6 +55,10 @@
              
         </div>
       </div>
+    </div>
+    <!-- display ngo's campaigns -->
+    hello
+    <!-- -->
     </div>
  
 </div>
