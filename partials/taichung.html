@@ -1,0 +1,75 @@
+<div id="content_tc">
+<div class="wrapper">
+<!--
+<div class="l_center">
+    <div class="toggleCategoryQuestionBtn button" ng-click="toggleShowCategoryQuestions()">toggle!</div>
+</div>
+
+<div class="slider_wrap">
+    <input type="checkbox" id="s1" ng-click="toggleSignFilter()"/>
+    <label class="slider" for="s1"></label>
+</div>
+-->
+ <div ng-class="{'q_label_item_fix':!scroll,'q_label_item_nav':scroll}">
+ <div class="wrapper">
+      
+      <div class="q_item_title_block_tc"><div class="q_label_item_title">問題分類 / 總題數 </div></div>
+      <div class="q_item_candidate_block_tc">
+          <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
+              <div class="q_item_candidate_name">{{candidates[c].name}}</div>
+              <img class="c_img" ng-src="images/candidates_avatar/{{c}}.jpg">
+          </div>
+      </div>
+</div>
+ </div>
+
+<div class="q_item" ng-repeat="v in issues" ng-class="{'md-whiteframe-z1':showQuestion(q.id),'q_item_active':isFocusIssue(v.name)}" ng-click="toggleIssue(v.name)">
+
+    <div class="q_item_inner" ng-class="{'q_item_inner_active':isFocusIssue(v.name)}">
+        <div class="q_item_title_block_tc"><div class="q_item_title q_item_title_topic"><div ng-class="{'q_item_title_active':isFocusIssue(v.name)}">{{v.name}} {{v.list.length}}  
+           <span class="q_item_title_icon" ng-if="!isFocusIssue(v.name)">  <i class="fa fa-angle-double-down"></i></span>
+           <span class="q_item_title_icon" ng-if="isFocusIssue(v.name)">  <i class="fa fa-angle-double-up"></i></span>
+
+        </div></div></div>
+        <div class="q_item_candidate_block_tc">
+
+              <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
+                  <div ng-if="candidates[c].issues[v.name].addressed" class="q_candidate_point" ng-class="candidates[c].issues[v.name].color">{{candidates[c].issues[v.name].ratio}}</div>
+                  <span ng-if="!candidates[c].issues[v.name].addressed"> --- </span>
+              </div>
+        </div>
+    </div>
+
+    <div ng-if="showCategoryQuestions || isFocusIssue(v.name)" ng-click="$event.stopPropagation()">
+    <!-- display related questions -->
+    <div ng-repeat="q in v.list">
+      <div class="q_item_inner">
+        <div class="q_item_title_block_tc"><div class="q_item_title">{{questions[q].title | limitTo:40}}{{(questions[q].title.length > 40 ? '...' :  ' ' )}}</div></div>
+        <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
+            
+            <div class="q_candidate_point" ng-click="openQuestionInNewWindow(questions[q].id, c)">
+                <span ng-if="candidates[c].questions[questions[q].id]==='responded'" class="text_green q_candidate_point_icon"><i class="fa fa-check-square-o"></i></span>
+                <span ng-if="candidates[c].questions[questions[q].id]==='pending'" class="text_red q_candidate_point_icon"><i class="fa fa-square-o"></i></span>
+                <span ng-if="candidates[c].questions[questions[q].id]==='notasked'">---</span>
+            </div>
+             
+        </div>
+      </div>
+    </div>
+    <!-- display ngo's campaigns -->
+    <div class="q_item_ngo"  ng-if="v.ngo">
+        <div class="q_item_ngo_title">各種表態：</div>
+        <ul>
+            <li ng-repeat="ngo in v.ngo"><a href="{{ngo.link}}" target="_new">{{ngo.title}}</a></li>     
+        </ul>
+    </div>
+    <!-- -->
+    </div>
+ 
+</div>
+
+</div>
+</div>
+
+
+

@@ -14,18 +14,26 @@ function getData(path){
     return deferred.promise;
 };
 
-var currentCandidates = ['-JWO0YJbdZOOiPO8X5_t','-JWO0VB8p2n362agsM67', '-JWO-vJujwhnLgcYSdl4', '-JWO0SxVP9GUJwQY-cyq', '-JFxrKQo3Qg19zsW73b1', '-JFuCKMKOH_eCspPxRe1', '-JFuCJcAoUNFQY9NEHZ4'];
-  //['-JFxrKQo3Qg19zsW73b1', '-JFuCKMKOH_eCspPxRe1', '-JFuCJcAoUNFQY9NEHZ4'];
+var tp_currentCandidates = ['-JWO0YJbdZOOiPO8X5_t','-JWO0VB8p2n362agsM67', '-JWO-vJujwhnLgcYSdl4', '-JWO0SxVP9GUJwQY-cyq', '-JFxrKQo3Qg19zsW73b1', '-JFuCKMKOH_eCspPxRe1', '-JFuCJcAoUNFQY9NEHZ4'];
+var tc_currentCandidates = ['-JY-qaO3h36Q1-eNZvqr', '-JY-qc8Jc6nzMY8-NovP'];
+var currentCandidates;
 
 var parsed_questions = {};
 var parsed_issues = {};
 var parsed_candidates = {};
 
-getData('questions').then(function(questions){
-    getData('responses').then(function(responses){
-        getData('issues').then(function(issues){
-        getData('ngo-issues').then(function(ngoissues){
-        getData('candidates').then(function(candidates){
+function parse(city){
+  if(city === 'tp')
+    currentCandidates = tp_currentCandidates;
+  else
+    currentCandidates = tc_currentCandidates;
+
+
+  getData(city+'/questions').then(function(questions){
+    getData(city+'/responses').then(function(responses){
+        getData(city+'/issues').then(function(issues){
+        getData(city+'/ngo-issues').then(function(ngoissues){
+        getData(city+'/candidates').then(function(candidates){
 
             //Save candidates' basic info
             currentCandidates.map(function (cid) {
@@ -95,11 +103,15 @@ getData('questions').then(function(questions){
                         // save to candidate data - issues count
                         var issue_name = issues[key].issue;
                         if(!parsed_candidates[ccid].issues[issue_name]){
-                           parsed_candidates[ccid].issues[issue_name] = {};
-                           parsed_candidates[ccid].issues[issue_name].responded = 0;
-                           parsed_candidates[ccid].issues[issue_name].addressed = 0;
+                            parsed_candidates[ccid].issues[issue_name] = {};
+                            parsed_candidates[ccid].issues[issue_name].responded = 0;
+                            parsed_candidates[ccid].issues[issue_name].addressed = 0;
 
                         }
+                        if(!parsed_candidates[ccid].addressed)
+                            parsed_candidates[ccid].addressed = 0;
+                        if(!parsed_candidates[ccid].responded)
+                            parsed_candidates[ccid].responded = 0;
                             
                         // save to candidate data - questions
                         if(questions[key].addressing[ccid]){
@@ -107,9 +119,12 @@ getData('questions').then(function(questions){
                           parsed_candidates[ccid].questions[key] = candidate_state;
 
                           // save to candidate data - issue count
-                          parsed_candidates[ccid].issues[issue_name].addressed++;                          
+                          parsed_candidates[ccid].issues[issue_name].addressed++;  
+                          parsed_candidates[ccid].addressed++; 
+
                           if( candidate_state === 'responded'){
                             parsed_candidates[ccid].issues[issue_name].responded ++;
+                            parsed_candidates[ccid].responded ++;
                           } 
 
                         }else{
@@ -190,14 +205,14 @@ getData('questions').then(function(questions){
 
             console.log("\n");
             //Save to json
-            fs.writeFile("data/questions.json", JSON.stringify(parsed_questions, null, 4), function(err) {
+            fs.writeFile("data/"+city+"/questions.json", JSON.stringify(parsed_questions, null, 4), function(err) {
                 if(err) {
                     console.log(err);
                 } else {
                     console.log(" - File saved : question.");  
                 }
             }); 
-            fs.writeFile("data/candidates.json", JSON.stringify(parsed_candidates, null, 4), function(err) {
+            fs.writeFile("data/"+city+"/candidates.json", JSON.stringify(parsed_candidates, null, 4), function(err) {
                 if(err) {
                     console.log(err);
                 } else {
@@ -205,7 +220,7 @@ getData('questions').then(function(questions){
                 }
             }); 
 
-            fs.writeFile("data/issues.json", JSON.stringify(sorted_parsed_issues, null, 4), function(err) {
+            fs.writeFile("data/"+city+"/issues.json", JSON.stringify(sorted_parsed_issues, null, 4), function(err) {
                 if(err) {
                     console.log(err);
                 } else {
@@ -219,5 +234,10 @@ getData('questions').then(function(questions){
 
     });
 });
+
+}
+
+//parse('tp');
+parse('tc');
 
 

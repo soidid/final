@@ -18,9 +18,11 @@ function getData(path){
 
 var passed_q = {};
 
-getData('questions').then(function(questions){
-    getData('issues').then(function(issues){
+function parse (city) {
+  getData(city+'/questions').then(function(questions){
+    getData(city+'/issues').then(function(issues){
     
+
     //Parse questions
     for(var key in questions){
         //Handle only passed q
@@ -30,10 +32,11 @@ getData('questions').then(function(questions){
            }
            passed_q[key].issue = issues[key].issue || "undefine";
            passed_q[key].title = questions[key].title;
+           
         }
     }
     
-    fs.writeFile("data-raw/issues.json", JSON.stringify(passed_q, null, 4), function(err) {
+    fs.writeFile("data-raw/"+city+"/issues.json", JSON.stringify(passed_q, null, 4), function(err) {
         if(err) {
             console.log(err);
         } else {
@@ -42,5 +45,37 @@ getData('questions').then(function(questions){
     }); 
     });
 });
+}
+function parseFromScratch (city) {
+  getData(city+'/questions').then(function(questions){
+    //Parse questions
+    
+    for(var key in questions){
+        //Handle only passed q
+        if(questions[key].signatures_count >= questions[key].signatures_threshold){
+           if(!passed_q[key]){
+              passed_q[key] = {};
+           }
+           passed_q[key].issue = "undefine";
+           passed_q[key].title = questions[key].title;
+           
+        }
+    }
+    
+    fs.writeFile("data-raw/"+city+"/issues.json", JSON.stringify(passed_q, null, 4), function(err) {
+        if(err) {
+            console.log(err);
+        } else {
+            console.log(" - File saved : issues.");
+        }
+    }); 
+   
+  
+  });
+}
+
+// CAN ONLY parse one city at a time. TODO: handle callback and asyn issues.
+//parseFromScratch('tp');
+//parseFromScratch('tc');
 
 

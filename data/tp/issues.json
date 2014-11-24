@@ -8,8 +8,7 @@
             "-JZ8xLlI-KVfExMr89xV",
             "-JZ8z468lpPfleF7ot50",
             "-JZ9MO7_R9o3besNrh3P",
-            "-JZAqQoZYT9SuWAW3vHq",
-            "-JZDx48lElps1tfTLawt"
+            "-JZAqQoZYT9SuWAW3vHq"
         ],
         "ngo": [
             {
@@ -72,6 +71,10 @@
             {
                 "title": "台灣守護家庭：各縣市長候選人性解放議題態度",
                 "link": "https://taiwanfamily.com/"
+            },
+            {
+                "title": "托育政策催生聯盟：救生育、救孩子、救未來──我要非營利幼兒園",
+                "link": "https://www.facebook.com/cpagogogo"
             }
         ]
     },
@@ -137,6 +140,12 @@
                 "title": "校園午餐搞非基",
                 "link": "https://www.facebook.com/nogmolunch"
             }
+        ]
+    },
+    {
+        "name": "undefine",
+        "list": [
+            "-JZDx48lElps1tfTLawt"
         ]
     },
     {

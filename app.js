@@ -35,30 +35,17 @@ app.directive('errSrc', function() {
 app.config(['$routeProvider','$locationProvider',
   function($routeProvider,$locationProvider){
     $routeProvider.
-      when('/questions',{
-      templateUrl: 'partials/questions.html',
-      controller: 'IndexCtrl'
+      when('/taipei',{
+      templateUrl: 'partials/taipei.html',
+      controller: 'TPCtrl'
     }).
-      when('/candidates',{
-      templateUrl: 'partials/candidates.html',
-      controller: 'IndexCtrl'
-    }).
-      when('/issues',{
-      templateUrl: 'partials/issues.html',
-      controller: 'IndexCtrl'
-    }).
-      when('/category',{
-      templateUrl: 'partials/category.html',
-      controller: 'CategoryCtrl'
-    }).
-      when('/category/:index',{
-      templateUrl: 'partials/category.html',
-      controller: 'CategoryCtrl'
+      when('/taichung',{
+      templateUrl: 'partials/taichung.html',
+      controller: 'TCCtrl'
     }).
       otherwise({
       redirectTo:'/',
-      templateUrl: 'partials/index.html',
-      controller: 'IndexCtrl'
+      templateUrl: 'partials/index.html'
     });
 
     //$locationProvider.html5Mode(true);
@@ -110,15 +97,16 @@ app.controller('IndexCtrl', ['$scope', 'DataService', '$location', '$sce', funct
 
 }]);
 */
-app.controller('IndexCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeParams', function ($scope, DataService, $location, $sce, $routeParams){
-      
-  DataService.getData('questions').then(function(data){
+app.controller('TPCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeParams', function ($scope, DataService, $location, $sce, $routeParams){
+  
+
+  DataService.getData('tp/questions').then(function(data){
       $scope.questions = data;
   });
-  DataService.getData('candidates').then(function(data){
+  DataService.getData('tp/candidates').then(function(data){
       $scope.candidates = data;
   });
-  DataService.getData('issues').then(function(data){
+  DataService.getData('tp/issues').then(function(data){
       $scope.issues = data;
   });
 
@@ -224,6 +212,128 @@ app.controller('IndexCtrl', ['$scope', 'DataService', '$location', '$sce', '$rou
 
   $scope.openQuestionInNewWindow =function( qid, cid ) {
       window.open("http://taipei.wethepeople.tw/#!/question/"+qid+'/'+cid);
+
+  };
+
+
+
+}]);
+app.controller('TCCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeParams', function ($scope, DataService, $location, $sce, $routeParams){
+  
+
+  DataService.getData('tc/questions').then(function(data){
+      $scope.questions = data;
+  });
+  DataService.getData('tc/candidates').then(function(data){
+      $scope.candidates = data;
+  });
+  DataService.getData('tc/issues').then(function(data){
+      $scope.issues = data;
+  });
+
+  $scope.currentCandidates = ['-JY-qaO3h36Q1-eNZvqr', '-JY-qc8Jc6nzMY8-NovP'];
+  
+  $scope.currentCategoryIndex = parseInt($routeParams.index);
+
+  $scope.showQuestion = function(qid){
+    return $scope.focusQuestion === qid;
+  };
+
+  $scope.toggleQuestion = function(qid){
+    if($scope.focusQuestion === qid){
+       $scope.focusQuestion = false;
+       $scope.focusQuestionTitle = null;
+
+    }else{
+      $scope.focusQuestion = qid;
+      $scope.focusQuestionTitle = $scope.questions[qid].title;
+
+    }
+       
+  };
+
+  $scope.toTrusted = function(html_code) {
+    return $sce.trustAsHtml(html_code);
+  };
+
+  $scope.responseShowState = {};
+  $scope.toggleResponse = function(rid){
+    $scope.responseShowState[rid] = !$scope.responseShowState[rid];
+
+  };
+  $scope.showResponse = function(rid){
+    return $scope.responseShowState[rid];
+
+  };
+
+  var win    = $(window),
+    fxel     = $(".q_title_active"),
+    eloffset;
+
+
+  win.scroll(function() {
+      fxel     = $(".q_title_active");
+      var w = $(".q_title_active").width();
+      if(fxel && fxel.offset()){
+
+        eloffset = fxel.offset().top;
+
+       
+        if (eloffset < win.scrollTop()) {
+        //if (eloffset < 0) {
+            $(".q_fixTitle").addClass("q_title_fixed");
+            fxel.width(w+'px');
+        } else {
+            $(".q_fixTitle").removeClass("q_title_fixed");
+        }
+
+      }
+
+  });
+
+  $scope.pendingFilter = function(n){
+    controller.log(n.state);
+    if(n.state === 'pending')
+        return n;
+  };
+
+  $scope.toggleShowCategoryQuestions = function () {
+    $scope.showCategoryQuestions = !$scope.showCategoryQuestions;
+  };
+
+  $scope.toggleIssue = function (name) {
+    if($scope.isFocusIssue(name)){
+      $scope.focusIssue = null;
+
+    }else{
+      $scope.focusIssue = name;
+    }
+    
+  };
+  $scope.isFocusIssue = function (name) {
+    return $scope.focusIssue === name;
+  };
+
+  window.onscroll = function() {
+      var scrollTop = document.body.scrollTop;
+      console.log(scrollTop);
+      var beforeScroll = $scope.scroll;
+      if(scrollTop > 0){
+         $scope.scroll = true;
+
+      } else {
+         $scope.scroll = false;
+      }
+      //console.log($scope.scroll);
+      
+      if(beforeScroll !== $scope.scroll)
+        $scope.$apply();
+         
+    
+  };
+
+  $scope.openQuestionInNewWindow =function( qid, cid ) {
+      window.open("http://taichung.wethepeople.tw/#!/question/"+qid+'/'+cid);
 
   };
 

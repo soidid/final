@@ -1,0 +1,270 @@
+{
+    "-JY-qaO3h36Q1-eNZvqr": {
+        "id": "-JY-qaO3h36Q1-eNZvqr",
+        "name": "胡志強",
+        "party": "中國國民黨",
+        "partyEng": "KMT",
+        "issues": {
+            "性別": {
+                "responded": 0,
+                "addressed": 2,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "勞工": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "城市發展": {
+                "responded": 0,
+                "addressed": 10,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "黑道": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "其他": {
+                "responded": 0,
+                "addressed": 2,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "交通": {
+                "responded": 0,
+                "addressed": 11,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "文化 & 教育": {
+                "responded": 0,
+                "addressed": 2,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "環境": {
+                "responded": 0,
+                "addressed": 7,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "食品安全": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "透明": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "居住正義": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "酒駕": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "文化": {
+                "responded": 0,
+                "addressed": 0,
+                "ratio": null,
+                "color": "bg_red"
+            }
+        },
+        "questions": {
+            "-JYpwDC6TEGbANwGz9AU": "pending",
+            "-JYubso-v_ILR6c4ofmj": "pending",
+            "-JYudkPC_u4HZTQ8GXl-": "pending",
+            "-JYumtMOuCGHcf5hiKjy": "pending",
+            "-JYxUz1GiUVHMubD9AF9": "pending",
+            "-JYy55lGk3HUmuSX3tkQ": "pending",
+            "-JYy9GrG3ZzhypEyQ-e7": "pending",
+            "-JYyBRPVIv2KSprPxTO0": "pending",
+            "-JYyOagtw6Uyw3Su6ypO": "pending",
+            "-JYyRjQd5d35sm_TKDoK": "pending",
+            "-JYyWe9p6UK92piQfuzB": "pending",
+            "-JYyasiVy_06szvYfl-Z": "pending",
+            "-JYybK90GiDCSZq-jj8y": "pending",
+            "-JYz1Stpsfu8_kzO3NGQ": "pending",
+            "-JZ0rdEhqb60Ft9osVjJ": "pending",
+            "-JZ1mySiSkW8tCY3r2B_": "pending",
+            "-JZ2b1JtLImbOOLS6W7Z": "pending",
+            "-JZ2kyb7gJR5XHgIGiUi": "pending",
+            "-JZ2r2SZntRTm61fOzyu": "pending",
+            "-JZ3HFiNfLdV3ofbr5EX": "pending",
+            "-JZ3SNHrpD-V8pDjIane": "notasked",
+            "-JZ3osPcRIC7AE5iFDIs": "notasked",
+            "-JZ3p44kWppB5ZFbeOnY": "pending",
+            "-JZ4K115x2JuM4KFeTns": "pending",
+            "-JZ7CE9JrLbP5ZlNjrWT": "pending",
+            "-JZ7aGWGG7jGXS8nXtcz": "pending",
+            "-JZ7zwfHWg_1r4ZuoTwo": "pending",
+            "-JZ98suKMHErum_T0oFh": "pending",
+            "-JZ9IzkSCKKC2Flbms9J": "pending",
+            "-JZCUBZ-5a-lynKsMBQy": "pending",
+            "-JZFMxnOpzdtCvm18lW8": "pending",
+            "-JZGrirSr7_EhGWhUzi8": "pending",
+            "-JZHyLYdBmXlFSLaBQjU": "pending",
+            "-JZJ4vWRZAF-mPoGoGel": "notasked",
+            "-JZNElYKaq-2tnI2uZcX": "pending",
+            "-JZSz2vlAaCfOnAhY4U9": "pending",
+            "-JZUojer5YFI0fn_g32D": "pending",
+            "-JZafHLmc1ldI7dnnhKN": "pending",
+            "-JZbXgkaXVKduS4YaQ3P": "pending",
+            "-JZbdxgV0QrcRMyWbxpX": "pending",
+            "-JZbtm7Ien_SsTuPvgJ9": "pending",
+            "-JZcjlLUW8Ur306d0cGa": "pending",
+            "-JZjozJqT8C18LvVEVl1": "notasked",
+            "-Jb2n31CZaJnTfqKi56i": "pending"
+        },
+        "addressed": 40,
+        "responded": 0
+    },
+    "-JY-qc8Jc6nzMY8-NovP": {
+        "id": "-JY-qc8Jc6nzMY8-NovP",
+        "name": "林佳龍",
+        "party": "民主進步黨",
+        "partyEng": "DPP",
+        "issues": {
+            "性別": {
+                "responded": 0,
+                "addressed": 3,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "勞工": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "城市發展": {
+                "responded": 0,
+                "addressed": 11,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "黑道": {
+                "responded": 0,
+                "addressed": 0,
+                "ratio": null,
+                "color": "bg_red"
+            },
+            "其他": {
+                "responded": 0,
+                "addressed": 2,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "交通": {
+                "responded": 5,
+                "addressed": 11,
+                "ratio": 45,
+                "color": "bg_yellow"
+            },
+            "文化 & 教育": {
+                "responded": 0,
+                "addressed": 2,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "環境": {
+                "responded": 2,
+                "addressed": 6,
+                "ratio": 33,
+                "color": "bg_red"
+            },
+            "食品安全": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "透明": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "居住正義": {
+                "responded": 1,
+                "addressed": 1,
+                "ratio": 100,
+                "color": "bg_green"
+            },
+            "酒駕": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "文化": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            }
+        },
+        "questions": {
+            "-JYpwDC6TEGbANwGz9AU": "pending",
+            "-JYubso-v_ILR6c4ofmj": "pending",
+            "-JYudkPC_u4HZTQ8GXl-": "pending",
+            "-JYumtMOuCGHcf5hiKjy": "notasked",
+            "-JYxUz1GiUVHMubD9AF9": "pending",
+            "-JYy55lGk3HUmuSX3tkQ": "pending",
+            "-JYy9GrG3ZzhypEyQ-e7": "responded",
+            "-JYyBRPVIv2KSprPxTO0": "pending",
+            "-JYyOagtw6Uyw3Su6ypO": "pending",
+            "-JYyRjQd5d35sm_TKDoK": "pending",
+            "-JYyWe9p6UK92piQfuzB": "pending",
+            "-JYyasiVy_06szvYfl-Z": "pending",
+            "-JYybK90GiDCSZq-jj8y": "pending",
+            "-JYz1Stpsfu8_kzO3NGQ": "responded",
+            "-JZ0rdEhqb60Ft9osVjJ": "responded",
+            "-JZ1mySiSkW8tCY3r2B_": "pending",
+            "-JZ2b1JtLImbOOLS6W7Z": "notasked",
+            "-JZ2kyb7gJR5XHgIGiUi": "responded",
+            "-JZ2r2SZntRTm61fOzyu": "pending",
+            "-JZ3HFiNfLdV3ofbr5EX": "pending",
+            "-JZ3SNHrpD-V8pDjIane": "pending",
+            "-JZ3osPcRIC7AE5iFDIs": "responded",
+            "-JZ3p44kWppB5ZFbeOnY": "pending",
+            "-JZ4K115x2JuM4KFeTns": "pending",
+            "-JZ7CE9JrLbP5ZlNjrWT": "responded",
+            "-JZ7aGWGG7jGXS8nXtcz": "pending",
+            "-JZ7zwfHWg_1r4ZuoTwo": "responded",
+            "-JZ98suKMHErum_T0oFh": "notasked",
+            "-JZ9IzkSCKKC2Flbms9J": "responded",
+            "-JZCUBZ-5a-lynKsMBQy": "pending",
+            "-JZFMxnOpzdtCvm18lW8": "pending",
+            "-JZGrirSr7_EhGWhUzi8": "pending",
+            "-JZHyLYdBmXlFSLaBQjU": "pending",
+            "-JZJ4vWRZAF-mPoGoGel": "pending",
+            "-JZNElYKaq-2tnI2uZcX": "pending",
+            "-JZSz2vlAaCfOnAhY4U9": "pending",
+            "-JZUojer5YFI0fn_g32D": "pending",
+            "-JZafHLmc1ldI7dnnhKN": "pending",
+            "-JZbXgkaXVKduS4YaQ3P": "pending",
+            "-JZbdxgV0QrcRMyWbxpX": "pending",
+            "-JZbtm7Ien_SsTuPvgJ9": "pending",
+            "-JZcjlLUW8Ur306d0cGa": "pending",
+            "-JZjozJqT8C18LvVEVl1": "pending",
+            "-Jb2n31CZaJnTfqKi56i": "pending"
+        },
+        "addressed": 41,
+        "responded": 8
+    }
+}

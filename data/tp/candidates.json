@@ -55,7 +55,7 @@
             },
             "環境": {
                 "responded": 0,
-                "addressed": 8,
+                "addressed": 7,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -84,6 +84,12 @@
                 "color": "bg_red"
             },
             "食品安全": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "undefine": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
@@ -131,7 +137,9 @@
             "-JZAqQoZYT9SuWAW3vHq": "pending",
             "-JZDx48lElps1tfTLawt": "pending",
             "-J_-HLCHmhXBTZGa88l1": "pending"
-        }
+        },
+        "addressed": 37,
+        "responded": 0
     },
     "-JWO0VB8p2n362agsM67": {
         "id": "-JWO0VB8p2n362agsM67",
@@ -189,7 +197,7 @@
             },
             "環境": {
                 "responded": 0,
-                "addressed": 8,
+                "addressed": 7,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -218,6 +226,12 @@
                 "color": "bg_red"
             },
             "食品安全": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "undefine": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
@@ -265,7 +279,9 @@
             "-JZAqQoZYT9SuWAW3vHq": "pending",
             "-JZDx48lElps1tfTLawt": "pending",
             "-J_-HLCHmhXBTZGa88l1": "pending"
-        }
+        },
+        "addressed": 37,
+        "responded": 0
     },
     "-JWO-vJujwhnLgcYSdl4": {
         "id": "-JWO-vJujwhnLgcYSdl4",
@@ -323,9 +339,9 @@
             },
             "環境": {
                 "responded": 3,
-                "addressed": 8,
-                "ratio": 38,
-                "color": "bg_red"
+                "addressed": 7,
+                "ratio": 43,
+                "color": "bg_yellow"
             },
             "核能": {
                 "responded": 0,
@@ -352,6 +368,12 @@
                 "color": "bg_green"
             },
             "食品安全": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "undefine": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
@@ -399,7 +421,9 @@
             "-JZAqQoZYT9SuWAW3vHq": "pending",
             "-JZDx48lElps1tfTLawt": "pending",
             "-J_-HLCHmhXBTZGa88l1": "pending"
-        }
+        },
+        "addressed": 37,
+        "responded": 18
     },
     "-JWO0SxVP9GUJwQY-cyq": {
         "id": "-JWO0SxVP9GUJwQY-cyq",
@@ -457,7 +481,7 @@
             },
             "環境": {
                 "responded": 0,
-                "addressed": 8,
+                "addressed": 7,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -486,6 +510,12 @@
                 "color": "bg_red"
             },
             "食品安全": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "undefine": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
@@ -533,7 +563,9 @@
             "-JZAqQoZYT9SuWAW3vHq": "pending",
             "-JZDx48lElps1tfTLawt": "pending",
             "-J_-HLCHmhXBTZGa88l1": "pending"
-        }
+        },
+        "addressed": 37,
+        "responded": 0
     },
     "-JFxrKQo3Qg19zsW73b1": {
         "id": "-JFxrKQo3Qg19zsW73b1",
@@ -591,9 +623,9 @@
             },
             "環境": {
                 "responded": 3,
-                "addressed": 8,
-                "ratio": 38,
-                "color": "bg_red"
+                "addressed": 7,
+                "ratio": 43,
+                "color": "bg_yellow"
             },
             "核能": {
                 "responded": 2,
@@ -620,6 +652,12 @@
                 "color": "bg_red"
             },
             "食品安全": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "undefine": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
@@ -667,7 +705,9 @@
             "-JZAqQoZYT9SuWAW3vHq": "pending",
             "-JZDx48lElps1tfTLawt": "pending",
             "-J_-HLCHmhXBTZGa88l1": "pending"
-        }
+        },
+        "addressed": 37,
+        "responded": 25
     },
     "-JFuCKMKOH_eCspPxRe1": {
         "id": "-JFuCKMKOH_eCspPxRe1",
@@ -725,8 +765,8 @@
             },
             "環境": {
                 "responded": 1,
-                "addressed": 8,
-                "ratio": 13,
+                "addressed": 7,
+                "ratio": 14,
                 "color": "bg_red"
             },
             "核能": {
@@ -754,6 +794,12 @@
                 "color": "bg_green"
             },
             "食品安全": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "undefine": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
@@ -801,7 +847,9 @@
             "-JZAqQoZYT9SuWAW3vHq": "pending",
             "-JZDx48lElps1tfTLawt": "pending",
             "-J_-HLCHmhXBTZGa88l1": "pending"
-        }
+        },
+        "addressed": 40,
+        "responded": 14
     },
     "-JFuCJcAoUNFQY9NEHZ4": {
         "id": "-JFuCJcAoUNFQY9NEHZ4",
@@ -859,9 +907,9 @@
             },
             "環境": {
                 "responded": 3,
-                "addressed": 8,
-                "ratio": 38,
-                "color": "bg_red"
+                "addressed": 7,
+                "ratio": 43,
+                "color": "bg_yellow"
             },
             "核能": {
                 "responded": 2,
@@ -888,6 +936,12 @@
                 "color": "bg_green"
             },
             "食品安全": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "undefine": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
@@ -935,6 +989,8 @@
             "-JZAqQoZYT9SuWAW3vHq": "pending",
             "-JZDx48lElps1tfTLawt": "pending",
             "-J_-HLCHmhXBTZGa88l1": "pending"
-        }
+        },
+        "addressed": 38,
+        "responded": 22
     }
 }
