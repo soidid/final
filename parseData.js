@@ -47,6 +47,10 @@ function parse(city){
                 candidate_item.issues = {};
                 candidate_item.questions = {};
                 candidate_item.number = num_count;
+                if(city === 'tp')
+                  candidate_item.role = '台北市長參選人';
+                else
+                  candidate_item.role = '台中市長參選人';
 
                 parsed_candidates[cid] = candidate_item;
                 

@@ -6,21 +6,26 @@
 <p>透過「市長，給問嗎」平台半年多的運作，我們看到共同參與這個實驗過程的使用者，想問什麼？關心什麼？</p>
 <p>而這，就像所有市民共同協作的一份「野生版選舉公報」。(￣y▽￣)╭</p>
 
-<div class="index_c_item" ng-repeat="c in tp_candidates">
+<!-- candidate rank -->
+<div class="index_c_item_block">
+<div class="profile_title">候選人綜合排名</div>
+<div class="index_c_item" ng-repeat="c in candidates | orderBy: 'ratio' : true">
+    <div>回答率：<span class="index_c_rate">{{c.ratio}}%</span></div>
     <img class="index_c_img" ng-src="images/candidates/{{c.id}}.jpg">
-    {{c.name}}
-    {{c.number}}
+    <div class="index_c_role">{{c.role}}</div>
+    <div class="index_c_name">{{c.name}}</div>
+    <div>{{c.party}}</div>
+</div>
 </div>
 
+<!-- city profile -->
 <div class="profile">
 	<div class="profile_title">台北市 Taipei</div>
     <div class="profile_list"><div class="profile_count">763</div>個問題被提出</div>
-    <div class="profile_list"><div class="profile_count">41</div>個問題達到門檻</div>
+    <div class="profile_list"><div class="profile_count">41</div>個問題達到門檻（500票）</div>
     <div class="profile_list"><div class="profile_count">66,546</div>總連署數</div>
     <div class="profile_list"><div class="profile_count">30,745</div>個登入使用者</div>
-
     
-
     <a href="#/taipei"><div class="index_button"><i class="fa fa-search"></i> 台北公報</div></a>
  
     
@@ -29,7 +34,7 @@
 <div class="profile">
    <div class="profile_title">台中市 Taichung</div>
    <div class="profile_list"><div class="profile_count">184</div>個問題被提出</div>
-   <div class="profile_list"><div class="profile_count">44</div>個問題達到門檻</div>
+   <div class="profile_list"><div class="profile_count">44</div>個問題達到門檻（200票）</div>
    <div class="profile_list"><div class="profile_count">17,880</div>總連署數</div>
    <div class="profile_list"><div class="profile_count">3,448</div>個登入使用者</div>
    <a href="#/taichung"><div class="index_button"><i class="fa fa-search"></i> 台中公報</div></a>

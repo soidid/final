@@ -88,19 +88,20 @@ app.controller('NavCtrl', ['$scope', '$location', function ($scope, $location){
 
 app.controller('IndexCtrl', ['$scope', 'DataService', '$location', '$sce', function ($scope, DataService, $location, $sce){
   DataService.getData('tp/candidates').then(function(data){
-      $scope.tp_candidates = [];
+      $scope.candidates = [];
       for(var key in data){
-        $scope.tp_candidates.push(data[key]);
+        data[key].ratio = Math.round(data[key].responded / data[key].addressed * 100);
+        $scope.candidates.push(data[key]);
 
       }
+      DataService.getData('tc/candidates').then(function(data){
+          for(var key in data){
+            data[key].ratio = Math.round(data[key].responded / data[key].addressed * 100);
+            $scope.candidates.push(data[key]);
+          }
+      });
   });
-  DataService.getData('tc/candidates').then(function(data){
-      $scope.tc_candidates = [];
-      for(var key in data){
-        $scope.tc_candidates.push(data[key]);
-
-      }
-  });
+  
  
 
 

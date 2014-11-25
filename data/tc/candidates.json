@@ -125,6 +125,7 @@
             "-Jb2n31CZaJnTfqKi56i": "pending"
         },
         "number": 1,
+        "role": "台中市長參選人",
         "addressed": 40,
         "responded": 0
     },
@@ -254,6 +255,7 @@
             "-Jb2n31CZaJnTfqKi56i": "pending"
         },
         "number": 2,
+        "role": "台中市長參選人",
         "addressed": 41,
         "responded": 8
     }
