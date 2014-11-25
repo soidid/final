@@ -54,7 +54,6 @@ function parse(city){
             for(var key in questions){
                 questions[key]['id'] = key;
                 
-
                 //Handle only passed q
                 if(questions[key].signatures_count >= questions[key].signatures_threshold){
                     //console.log(key);
@@ -90,10 +89,13 @@ function parse(city){
 
                     if(issues[key]){
                       var issueName = issues[key].issue;
+                      var issueTitle = issues[key].title;
                       if(!parsed_issues[issueName])
                           parsed_issues[issueName] = [];
 
                       questions[key].issue = issueName;
+                      questions[key].title = issueTitle;
+
                       parsed_issues[issueName].push(questions[key].id);
 
                     }
@@ -175,10 +177,46 @@ function parse(city){
             });    
 
             //Sort issues
-             
             var issue_sorting_order = Object.keys(parsed_issues).sort(function (a, b) {
-              return parsed_issues[b].length - parsed_issues[a].length;
+              
+              if(parsed_issues[b].length === parsed_issues[a].length){
+                  //compare issue name's 筆畫
+                  if(a > b){
+                      return 1;
+
+                  }else if(a < b){
+                      return -1;
+
+                  }else{
+                      return 0;
+
+                  }
+
+              }else{
+                 return parsed_issues[b].length - parsed_issues[a].length;
+
+              }
+
+
+            });
+
+            //Sort question list by 筆畫
+            Object.keys(parsed_issues).map(function (issueName, issueIndex) {
+                parsed_issues[issueName].sort(function (a, b) {
+                    
+                    if(questions[a].title > questions[b].title){
+                      return 1;
+                    }else if(questions[a].title < questions[b].title){
+                      return -1;
+                    }else{
+                      return 0;
+
+                    }
+                        
+                });
+                
             })
+
 
             //Move other to the end of array
             var idx_other = issue_sorting_order.indexOf('其他');
@@ -237,7 +275,7 @@ function parse(city){
 
 }
 
-//parse('tp');
-parse('tc');
+parse('tp');
+//parse('tc');
 
 

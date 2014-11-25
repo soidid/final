@@ -17,9 +17,9 @@
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "公民權利 & 透明": {
+            "政治獻金與議會透明": {
                 "responded": 0,
-                "addressed": 3,
+                "addressed": 1,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -29,7 +29,7 @@
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "機車路權": {
+            "交通": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
@@ -37,7 +37,7 @@
             },
             "其他": {
                 "responded": 0,
-                "addressed": 7,
+                "addressed": 6,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -55,13 +55,13 @@
             },
             "環境": {
                 "responded": 0,
-                "addressed": 8,
+                "addressed": 10,
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "核能": {
+            "城市空間": {
                 "responded": 0,
-                "addressed": 2,
+                "addressed": 1,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -74,6 +74,12 @@
             "動物保護": {
                 "responded": 0,
                 "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "公民權利": {
+                "responded": 0,
+                "addressed": 2,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -153,9 +159,9 @@
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "公民權利 & 透明": {
+            "政治獻金與議會透明": {
                 "responded": 0,
-                "addressed": 3,
+                "addressed": 1,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -165,7 +171,7 @@
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "機車路權": {
+            "交通": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
@@ -173,7 +179,7 @@
             },
             "其他": {
                 "responded": 0,
-                "addressed": 7,
+                "addressed": 6,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -191,13 +197,13 @@
             },
             "環境": {
                 "responded": 0,
-                "addressed": 8,
+                "addressed": 10,
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "核能": {
+            "城市空間": {
                 "responded": 0,
-                "addressed": 2,
+                "addressed": 1,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -210,6 +216,12 @@
             "動物保護": {
                 "responded": 0,
                 "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "公民權利": {
+                "responded": 0,
+                "addressed": 2,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -289,11 +301,11 @@
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "公民權利 & 透明": {
+            "政治獻金與議會透明": {
                 "responded": 1,
-                "addressed": 3,
-                "ratio": 33,
-                "color": "bg_red"
+                "addressed": 1,
+                "ratio": 100,
+                "color": "bg_green"
             },
             "居住正義": {
                 "responded": 2,
@@ -301,16 +313,16 @@
                 "ratio": 67,
                 "color": "bg_yellow"
             },
-            "機車路權": {
+            "交通": {
                 "responded": 1,
                 "addressed": 1,
                 "ratio": 100,
                 "color": "bg_green"
             },
             "其他": {
-                "responded": 4,
-                "addressed": 7,
-                "ratio": 57,
+                "responded": 3,
+                "addressed": 6,
+                "ratio": 50,
                 "color": "bg_yellow"
             },
             "性別": {
@@ -327,15 +339,15 @@
             },
             "環境": {
                 "responded": 3,
-                "addressed": 8,
-                "ratio": 38,
+                "addressed": 10,
+                "ratio": 30,
                 "color": "bg_red"
             },
-            "核能": {
-                "responded": 0,
-                "addressed": 2,
-                "ratio": 0,
-                "color": "bg_red"
+            "城市空間": {
+                "responded": 1,
+                "addressed": 1,
+                "ratio": 100,
+                "color": "bg_green"
             },
             "中國因素": {
                 "responded": 1,
@@ -346,6 +358,12 @@
             "動物保護": {
                 "responded": 0,
                 "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "公民權利": {
+                "responded": 0,
+                "addressed": 2,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -425,9 +443,9 @@
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "公民權利 & 透明": {
+            "政治獻金與議會透明": {
                 "responded": 0,
-                "addressed": 3,
+                "addressed": 1,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -437,7 +455,7 @@
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "機車路權": {
+            "交通": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
@@ -445,7 +463,7 @@
             },
             "其他": {
                 "responded": 0,
-                "addressed": 7,
+                "addressed": 6,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -463,13 +481,13 @@
             },
             "環境": {
                 "responded": 0,
-                "addressed": 8,
+                "addressed": 10,
                 "ratio": 0,
                 "color": "bg_red"
             },
-            "核能": {
+            "城市空間": {
                 "responded": 0,
-                "addressed": 2,
+                "addressed": 1,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -482,6 +500,12 @@
             "動物保護": {
                 "responded": 0,
                 "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
+            },
+            "公民權利": {
+                "responded": 0,
+                "addressed": 2,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -561,9 +585,9 @@
                 "ratio": 100,
                 "color": "bg_green"
             },
-            "公民權利 & 透明": {
-                "responded": 3,
-                "addressed": 3,
+            "政治獻金與議會透明": {
+                "responded": 1,
+                "addressed": 1,
                 "ratio": 100,
                 "color": "bg_green"
             },
@@ -573,17 +597,17 @@
                 "ratio": 67,
                 "color": "bg_yellow"
             },
-            "機車路權": {
+            "交通": {
                 "responded": 1,
                 "addressed": 1,
                 "ratio": 100,
                 "color": "bg_green"
             },
             "其他": {
-                "responded": 5,
-                "addressed": 7,
-                "ratio": 71,
-                "color": "bg_green"
+                "responded": 4,
+                "addressed": 6,
+                "ratio": 67,
+                "color": "bg_yellow"
             },
             "性別": {
                 "responded": 2,
@@ -598,14 +622,14 @@
                 "color": "bg_green"
             },
             "環境": {
-                "responded": 3,
-                "addressed": 8,
-                "ratio": 38,
-                "color": "bg_red"
+                "responded": 5,
+                "addressed": 10,
+                "ratio": 50,
+                "color": "bg_yellow"
             },
-            "核能": {
-                "responded": 2,
-                "addressed": 2,
+            "城市空間": {
+                "responded": 1,
+                "addressed": 1,
                 "ratio": 100,
                 "color": "bg_green"
             },
@@ -618,6 +642,12 @@
             "動物保護": {
                 "responded": 1,
                 "addressed": 1,
+                "ratio": 100,
+                "color": "bg_green"
+            },
+            "公民權利": {
+                "responded": 2,
+                "addressed": 2,
                 "ratio": 100,
                 "color": "bg_green"
             },
@@ -697,9 +727,9 @@
                 "ratio": 100,
                 "color": "bg_green"
             },
-            "公民權利 & 透明": {
+            "政治獻金與議會透明": {
                 "responded": 0,
-                "addressed": 3,
+                "addressed": 1,
                 "ratio": 0,
                 "color": "bg_red"
             },
@@ -709,7 +739,7 @@
                 "ratio": 100,
                 "color": "bg_green"
             },
-            "機車路權": {
+            "交通": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
@@ -717,8 +747,8 @@
             },
             "其他": {
                 "responded": 2,
-                "addressed": 7,
-                "ratio": 29,
+                "addressed": 6,
+                "ratio": 33,
                 "color": "bg_red"
             },
             "性別": {
@@ -734,16 +764,16 @@
                 "color": "bg_red"
             },
             "環境": {
-                "responded": 1,
-                "addressed": 8,
-                "ratio": 13,
+                "responded": 2,
+                "addressed": 10,
+                "ratio": 20,
                 "color": "bg_red"
             },
-            "核能": {
-                "responded": 1,
-                "addressed": 2,
-                "ratio": 50,
-                "color": "bg_yellow"
+            "城市空間": {
+                "responded": 0,
+                "addressed": 1,
+                "ratio": 0,
+                "color": "bg_red"
             },
             "中國因素": {
                 "responded": 1,
@@ -756,6 +786,12 @@
                 "addressed": 2,
                 "ratio": 100,
                 "color": "bg_green"
+            },
+            "公民權利": {
+                "responded": 0,
+                "addressed": 2,
+                "ratio": 0,
+                "color": "bg_red"
             },
             "教育": {
                 "responded": 1,
@@ -833,11 +869,11 @@
                 "ratio": 100,
                 "color": "bg_green"
             },
-            "公民權利 & 透明": {
+            "政治獻金與議會透明": {
                 "responded": 1,
-                "addressed": 3,
-                "ratio": 33,
-                "color": "bg_red"
+                "addressed": 1,
+                "ratio": 100,
+                "color": "bg_green"
             },
             "居住正義": {
                 "responded": 2,
@@ -845,17 +881,17 @@
                 "ratio": 67,
                 "color": "bg_yellow"
             },
-            "機車路權": {
+            "交通": {
                 "responded": 1,
                 "addressed": 1,
                 "ratio": 100,
                 "color": "bg_green"
             },
             "其他": {
-                "responded": 3,
-                "addressed": 7,
-                "ratio": 43,
-                "color": "bg_yellow"
+                "responded": 2,
+                "addressed": 6,
+                "ratio": 33,
+                "color": "bg_red"
             },
             "性別": {
                 "responded": 3,
@@ -870,14 +906,14 @@
                 "color": "bg_red"
             },
             "環境": {
-                "responded": 3,
-                "addressed": 8,
-                "ratio": 38,
-                "color": "bg_red"
+                "responded": 5,
+                "addressed": 10,
+                "ratio": 50,
+                "color": "bg_yellow"
             },
-            "核能": {
-                "responded": 2,
-                "addressed": 2,
+            "城市空間": {
+                "responded": 1,
+                "addressed": 1,
                 "ratio": 100,
                 "color": "bg_green"
             },
@@ -892,6 +928,12 @@
                 "addressed": 2,
                 "ratio": 100,
                 "color": "bg_green"
+            },
+            "公民權利": {
+                "responded": 0,
+                "addressed": 2,
+                "ratio": 0,
+                "color": "bg_red"
             },
             "教育": {
                 "responded": 1,

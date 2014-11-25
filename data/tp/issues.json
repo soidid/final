@@ -2,14 +2,16 @@
     {
         "name": "環境",
         "list": [
-            "-JGKOeUZF_4LXv1ni-W5",
-            "-JGTrDZ72VQWQfHpKooZ",
-            "-JH_qOKIQYM9kYJYW3dA",
-            "-JZ8xLlI-KVfExMr89xV",
-            "-JZ8z468lpPfleF7ot50",
-            "-JZ9MO7_R9o3besNrh3P",
             "-JZAqQoZYT9SuWAW3vHq",
-            "-JZDx48lElps1tfTLawt"
+            "-JHEwtF4a6t6LSmTpqeB",
+            "-JGLNT4jKurztnQUwGeQ",
+            "-JZ9MO7_R9o3besNrh3P",
+            "-JZ8xLlI-KVfExMr89xV",
+            "-JZDx48lElps1tfTLawt",
+            "-JZ8z468lpPfleF7ot50",
+            "-JGKOeUZF_4LXv1ni-W5",
+            "-JH_qOKIQYM9kYJYW3dA",
+            "-JGTrDZ72VQWQfHpKooZ"
         ],
         "ngo": [
             {
@@ -19,38 +21,36 @@
             {
                 "title": "全國廢核行動平台：要求新北市議員承諾核電除役行動",
                 "link": "https://www.facebook.com/media/set/?set=a.387044848129054.1073741867.132350033598538&type=3"
+            },
+            {
+                "title": "台灣青年氣候聯盟：能源政見大彙整",
+                "link": "https://www.facebook.com/rocktwycc/photos/a.127253717365997.28724.120653671359335/750615101696519/?type=1&theater"
             }
         ]
     },
     {
         "name": "勞工",
         "list": [
+            "-JToQ7CpO-NWK-LEDUAz",
             "-JGKLF0-EZ3jnsWRGr62",
             "-JSOdrFFMZ1BC7RD6oVJ",
-            "-JToQ7CpO-NWK-LEDUAz",
             "-JX8np8Um8ONZENCV6KK"
         ]
     },
     {
-        "name": "公民權利 & 透明",
+        "name": "中國因素",
         "list": [
-            "-JGJqnXoXbrVjJr_p9oh",
-            "-JR1946bXDrEhKrIEjYL",
-            "-JSDFAIQ-KRcWEn0rrV_"
-        ],
-        "ngo": [
-            {
-                "title": "公督盟議會改革承諾書簽署名單",
-                "link": "https://www.facebook.com/ccw.org.tw/photos/a.203916478959.131785.154580453959/10152858746458960/?type=1&theater"
-            }
+            "-JTomtDS7IGvpqxGpBtn",
+            "-JHFmkeYvi4kQJ8hfbSo",
+            "-JXsll61unWJ-o6KKwBc"
         ]
     },
     {
         "name": "居住正義",
         "list": [
             "-JGK-T5jHb2a-Kyi88sp",
-            "-JGKIKIjsNfR2rE915U0",
-            "-JVLw89pQs-Y_J0QhYVC"
+            "-JVLw89pQs-Y_J0QhYVC",
+            "-JGKIKIjsNfR2rE915U0"
         ]
     },
     {
@@ -80,24 +80,10 @@
         ]
     },
     {
-        "name": "中國因素",
+        "name": "公民權利",
         "list": [
-            "-JHFmkeYvi4kQJ8hfbSo",
-            "-JTomtDS7IGvpqxGpBtn",
-            "-JXsll61unWJ-o6KKwBc"
-        ]
-    },
-    {
-        "name": "核能",
-        "list": [
-            "-JGLNT4jKurztnQUwGeQ",
-            "-JHEwtF4a6t6LSmTpqeB"
-        ],
-        "ngo": [
-            {
-                "title": "全國廢核行動平台：要求新北市議員承諾核電除役行動",
-                "link": "https://www.facebook.com/media/set/?set=a.387044848129054.1073741867.132350033598538&type=3"
-            }
+            "-JSDFAIQ-KRcWEn0rrV_",
+            "-JR1946bXDrEhKrIEjYL"
         ]
     },
     {
@@ -108,9 +94,33 @@
         ]
     },
     {
-        "name": "機車路權",
+        "name": "交通",
         "list": [
             "-JGKCvMcN_pV8ll9oSOb"
+        ]
+    },
+    {
+        "name": "城市空間",
+        "list": [
+            "-JGMPB8dr2ENATZGqUgu"
+        ]
+    },
+    {
+        "name": "政治獻金與議會透明",
+        "list": [
+            "-JGJqnXoXbrVjJr_p9oh"
+        ],
+        "ngo": [
+            {
+                "title": "公督盟議會改革承諾書簽署名單",
+                "link": "https://www.facebook.com/ccw.org.tw/photos/a.203916478959.131785.154580453959/10152858746458960/?type=1&theater"
+            }
+        ]
+    },
+    {
+        "name": "教育",
+        "list": [
+            "-JTvCBUVx5gR8f2JmoI0"
         ]
     },
     {
@@ -123,12 +133,6 @@
         "name": "青年處境",
         "list": [
             "-JGJj9MVjeU7ezA_XC5R"
-        ]
-    },
-    {
-        "name": "教育",
-        "list": [
-            "-JTvCBUVx5gR8f2JmoI0"
         ]
     },
     {
@@ -146,13 +150,12 @@
     {
         "name": "其他",
         "list": [
-            "-JGKD68mlm6u06IugPjT",
-            "-JGKHutUzP1nspLCoL3E",
-            "-JGMPB8dr2ENATZGqUgu",
-            "-JMPuSL8h4aq9DZncquD",
             "-JUqfdNU9CHxqa6mejkd",
+            "-J_-HLCHmhXBTZGa88l1",
+            "-JMPuSL8h4aq9DZncquD",
             "-JXgJFkQ1zslMGUb9OKQ",
-            "-J_-HLCHmhXBTZGa88l1"
+            "-JGKHutUzP1nspLCoL3E",
+            "-JGKD68mlm6u06IugPjT"
         ]
     }
 ]
