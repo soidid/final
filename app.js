@@ -154,31 +154,6 @@ app.controller('TPCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeP
 
   };
 
-  var win    = $(window),
-    fxel     = $(".q_title_active"),
-    eloffset;
-
-
-  win.scroll(function() {
-      fxel     = $(".q_title_active");
-      var w = $(".q_title_active").width();
-      if(fxel && fxel.offset()){
-
-        eloffset = fxel.offset().top;
-
-       
-        if (eloffset < win.scrollTop()) {
-        //if (eloffset < 0) {
-            $(".q_fixTitle").addClass("q_title_fixed");
-            fxel.width(w+'px');
-        } else {
-            $(".q_fixTitle").removeClass("q_title_fixed");
-        }
-
-      }
-
-  });
-
   $scope.pendingFilter = function(n){
     controller.log(n.state);
     if(n.state === 'pending')
@@ -201,7 +176,8 @@ app.controller('TPCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeP
   $scope.isFocusIssue = function (name) {
     return $scope.focusIssue === name;
   };
-
+  
+  /*
   window.onscroll = function() {
       var scrollTop = document.body.scrollTop;
       console.log(scrollTop);
@@ -219,6 +195,7 @@ app.controller('TPCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeP
          
     
   };
+  */
 
   $scope.openQuestionInNewWindow =function( qid, cid ) {
       window.open("http://taipei.wethepeople.tw/#!/question/"+qid+'/'+cid);
@@ -288,31 +265,6 @@ app.controller('TCCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeP
 
   };
 
-  var win    = $(window),
-    fxel     = $(".q_title_active"),
-    eloffset;
-
-
-  win.scroll(function() {
-      fxel     = $(".q_title_active");
-      var w = $(".q_title_active").width();
-      if(fxel && fxel.offset()){
-
-        eloffset = fxel.offset().top;
-
-       
-        if (eloffset < win.scrollTop()) {
-        //if (eloffset < 0) {
-            $(".q_fixTitle").addClass("q_title_fixed");
-            fxel.width(w+'px');
-        } else {
-            $(".q_fixTitle").removeClass("q_title_fixed");
-        }
-
-      }
-
-  });
-
   $scope.pendingFilter = function(n){
     controller.log(n.state);
     if(n.state === 'pending')
@@ -335,7 +287,7 @@ app.controller('TCCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeP
   $scope.isFocusIssue = function (name) {
     return $scope.focusIssue === name;
   };
-
+  /*
   window.onscroll = function() {
       var scrollTop = document.body.scrollTop;
       console.log(scrollTop);
@@ -353,6 +305,7 @@ app.controller('TCCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeP
          
     
   };
+  */
 
   $scope.openQuestionInNewWindow =function( qid, cid ) {
       window.open("http://taichung.wethepeople.tw/#!/question/"+qid+'/'+cid);

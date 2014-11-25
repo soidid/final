@@ -265,7 +265,7 @@ a {
   width: 100%;
   box-sizing: border-box;
   pointer-events: none;
- background: white;
+  background: rgba(255,255,255,0.8);
 }
 .q_label_item_nav {/* when scrolling */
   position: fixed;
@@ -273,7 +273,7 @@ a {
   left: 0px;
   z-index: 30;
   width: 100%;
-  background: white;
+  background: rgba(255,255,255,0.8);
   border-bottom: 1px solid rgb(55,53,54);
   box-sizing: border-box;
   pointer-events: none;
