@@ -26,7 +26,10 @@
 <div class="q_item" ng-repeat="v in issues" ng-class="{'md-whiteframe-z1':showQuestion(q.id),'q_item_active':isFocusIssue(v.name)}" ng-click="toggleIssue(v.name)">
 
     <div class="q_item_inner" ng-class="{'q_item_inner_active':isFocusIssue(v.name)}">
-        <div class="q_item_title_block_tc"><div class="q_item_title q_item_title_topic"><div ng-class="{'q_item_title_active':isFocusIssue(v.name)}">{{v.name}} {{v.list.length}}  
+        <div class="q_item_title_block_tc"><div class="q_item_title q_item_title_topic"><div ng-class="{'q_item_title_active':isFocusIssue(v.name)}">
+           <div class="q_item_title_topic_name">{{v.name}}</div>
+           <div class="q_item_title_topic_count">{{v.list.length}}</div> 
+
            <span class="q_item_title_icon" ng-if="!isFocusIssue(v.name)">  <i class="fa fa-angle-double-down"></i></span>
            <span class="q_item_title_icon" ng-if="isFocusIssue(v.name)">  <i class="fa fa-angle-double-up"></i></span>
 
