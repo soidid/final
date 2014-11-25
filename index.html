@@ -35,80 +35,10 @@
 </head>
 <body class="body">
    
-    <div id="navigation" ng-controller="NavCtrl">
-        
-            <div class="nav_item" ng-click="go('/')">
-                <img class="nav_item_logo" src="images/watchout_logo_black.png">
-            </div>
-            <div class="nav_item" ng-class="{'nav_item_active':isActive('/taipei')}" ng-click="go('/taipei')" >
-                台北
-            </div>
-            <div class="nav_item" ng-class="{'nav_item_active':isActive('/taichung')}" ng-click="go('/taichung')">
-                台中
-            </div>
-            <div class="nav_info">
-                <div class="nav_info_btn" ng-click="toggleInfo()"><i class="fa fa-question"></i> 圖表說明</div>
-                <div class="nav_info_box" ng-if="showInfo">
-                    <div class="nav_info_remove" ng-click="toggleInfo()">x</div>
-                    <div class="nav_info_list">
-                        看看候選人在各個議題的回答比率 / 立場表態
-                    </div>
-                    <div class="nav_info_list">
-                        <div class="nav_info_item">
-                        <div class="nav_info_item_candidate">
-                            <div class="q_candidate_point bg_gray"> 0% </div>
-                        </div>
-                        </div>
-                        <div class="nav_info_item_text">
-                            回答率 0%，顯示為灰色
-                        </div>
-                    </div>
-
-                    <div class="nav_info_list">
-                        <div class="nav_info_item_candidate">
-                            <div class="q_candidate_point bg_red"> 1% </div>
-                        </div>
-                        <div class="nav_info_item_candidate">
-                            <div class="q_candidate_point bg_red"> 39% </div>
-                        </div>
-                        <div class="nav_info_item_text">
-                            回答率 1%-39%，顯示為紅色
-                        </div>
-                    </div>
-                    
-                    <div class="nav_info_list">
-                        <div class="nav_info_item_candidate">
-                            <div class="q_candidate_point bg_yellow"> 40% </div>
-                        </div>
-                        <div class="nav_info_item_candidate">
-                            <div class="q_candidate_point bg_yellow"> 69% </div>
-                        </div>
-                        <div class="nav_info_item_text">
-                            回答率 40%-60%，顯示為橘色
-                        </div>
-                    </div>
-
-                    <div class="nav_info_list">
-                        <div class="nav_info_item_candidate">
-                            <div class="q_candidate_point bg_green"> 70% </div>
-                        </div>
-                        <div class="nav_info_item_candidate">
-                            <div class="q_candidate_point bg_green"> 100% </div>
-                        </div>
-                        <div class="nav_info_item_text">
-                            回答率 70% 以上，顯示為綠色
-                        </div>
-                    </div>
-              </div>
-
-
-                </div>
-            </div>
-            
-    </div>
-
-
     <div ng-view></div>
+    <div id="footer">
+        <div class="wrapper">最近更新時間：2014-11-25 18:21</div>
+    </div>
 
 </body>
 </html>
