@@ -287,8 +287,25 @@ a {
   height: 30px;
   border-radius: 50%;
   margin: 0 auto;
-
   cursor: pointer;
+}
+.q_candidate_link_box {
+  opacity: 0;
+}
+.q_item_candidate:hover .q_candidate_link_box{
+  opacity: 1;
+}
+.q_candidate_link_box {
+  background: rgba(10,10,10,0.8);
+  color: white;
+  position: absolute;
+  left: 0px;
+  bottom: -25px;
+  padding: 4px;
+  width: 50px;
+  font-size: 12px;
+  border-radius: 15px;
+  z-index: 10;
 }
 .q_candidate_point_icon {
   font-size: 18px;
@@ -298,6 +315,7 @@ a {
   width: 50px;
   font-size: 14px;
   display: inline-block;
+  position: relative;
 }
 @media screen and (max-width:1000px) {
   #content {
