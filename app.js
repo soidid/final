@@ -77,8 +77,12 @@ app.controller('NavCtrl', ['$scope', '$location', function ($scope, $location){
       $location.path(path);
    };
    $scope.toggleInfo = function(){
-      $scope.showInfo = !$scope.showInfo
+      $scope.showInfo = !$scope.showInfo;
    };
+   $scope.isActive = function(path){
+      return $location.path() === path;
+   };
+
 }]);
 /*
 app.controller('IndexCtrl', ['$scope', 'DataService', '$location', '$sce', function ($scope, DataService, $location, $sce){

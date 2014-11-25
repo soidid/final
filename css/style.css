@@ -64,19 +64,23 @@ a {
   height: 50px;
   cursor: pointer;
   display: inline-block;
-  min-width: 70px;
+  min-width: 30px;
   padding: 13px 10px;
   text-align: center;
   font-weight: 600;
+  float: left;
 }
 .nav_item:hover {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.6);
+}
+.nav_item_active {
+  border-bottom: 5px solid rgb(218,213,206);
 }
 .nav_info {
   position: absolute;
   right: 30px;
   top: 13px;
-  z-index: 20;
+  z-index: 10;
   font-size: 14px;
 }
 .nav_info_btn {
@@ -244,19 +248,21 @@ a {
   position: fixed;
   top: 50px;
   left: 0px;
-  z-index: 10;
+  z-index: 5;
   width: 100%;
   box-sizing: border-box;
+  pointer-events: none;
 }
 .q_label_item_nav {/* when scrolling */
   position: fixed;
   top: 0px;
   left: 0px;
-  z-index: 10;
+  z-index: 30;
   width: 100%;
   background: white;
   border-bottom: 1px solid rgb(55,53,54);
   box-sizing: border-box;
+  pointer-events: none;
 }
 .q_label_item_title {
   padding-top: 25px;
@@ -304,10 +310,16 @@ a {
   .q_item_title_topic_name {
      width: auto;
   }
+  .q_label_item_title {
+    padding-top: 0px;
+  }
   
   
 }
 @media screen and (max-width: 400px) {
+  .q_label_item_title {
+    padding-top: 0px;
+  }
   .q_item_candidate{
     width: 40px;
   }

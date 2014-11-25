@@ -40,10 +40,10 @@
             <div class="nav_item" ng-click="go('/')">
                 <img class="nav_item_logo" src="images/watchout_logo_black.png">
             </div>
-            <div class="nav_item" ng-click="go('/taipei')">
+            <div class="nav_item" ng-class="{'nav_item_active':isActive('/taipei')}" ng-click="go('/taipei')" >
                 台北
             </div>
-            <div class="nav_item" ng-click="go('/taichung')">
+            <div class="nav_item" ng-class="{'nav_item_active':isActive('/taichung')}" ng-click="go('/taichung')">
                 台中
             </div>
             <div class="nav_info">
@@ -51,7 +51,7 @@
                 <div class="nav_info_box" ng-if="showInfo">
                     <div class="nav_info_remove" ng-click="toggleInfo()">x</div>
                     <div class="nav_info_list">
-                        看看候選人在各個議題的回答比率 / 立場表態：
+                        看看候選人在各個議題的回答比率 / 立場表態
                     </div>
                     <div class="nav_info_list">
                         <div class="nav_info_item">
