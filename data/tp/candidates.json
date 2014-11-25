@@ -9,91 +9,91 @@
                 "responded": 0,
                 "addressed": 0,
                 "ratio": null,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "遊民": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "政治獻金與議會透明": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "居住正義": {
                 "responded": 0,
                 "addressed": 3,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "交通": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "其他": {
                 "responded": 0,
                 "addressed": 6,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "性別": {
                 "responded": 0,
                 "addressed": 3,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "勞工": {
                 "responded": 0,
                 "addressed": 3,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "環境": {
                 "responded": 0,
                 "addressed": 10,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "城市空間": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "中國因素": {
                 "responded": 0,
                 "addressed": 3,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "動物保護": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "公民權利": {
                 "responded": 0,
                 "addressed": 2,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "教育": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "食品安全": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             }
         },
         "questions": {
@@ -151,91 +151,91 @@
                 "responded": 0,
                 "addressed": 0,
                 "ratio": null,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "遊民": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "政治獻金與議會透明": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "居住正義": {
                 "responded": 0,
                 "addressed": 3,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "交通": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "其他": {
                 "responded": 0,
                 "addressed": 6,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "性別": {
                 "responded": 0,
                 "addressed": 3,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "勞工": {
                 "responded": 0,
                 "addressed": 3,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "環境": {
                 "responded": 0,
                 "addressed": 10,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "城市空間": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "中國因素": {
                 "responded": 0,
                 "addressed": 3,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "動物保護": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "公民權利": {
                 "responded": 0,
                 "addressed": 2,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "教育": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "食品安全": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             }
         },
         "questions": {
@@ -293,13 +293,13 @@
                 "responded": 0,
                 "addressed": 0,
                 "ratio": null,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "遊民": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "政治獻金與議會透明": {
                 "responded": 1,
@@ -359,13 +359,13 @@
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "公民權利": {
                 "responded": 0,
                 "addressed": 2,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "教育": {
                 "responded": 1,
@@ -377,7 +377,7 @@
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             }
         },
         "questions": {
@@ -435,91 +435,91 @@
                 "responded": 0,
                 "addressed": 0,
                 "ratio": null,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "遊民": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "政治獻金與議會透明": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "居住正義": {
                 "responded": 0,
                 "addressed": 3,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "交通": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "其他": {
                 "responded": 0,
                 "addressed": 6,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "性別": {
                 "responded": 0,
                 "addressed": 3,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "勞工": {
                 "responded": 0,
                 "addressed": 3,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "環境": {
                 "responded": 0,
                 "addressed": 10,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "城市空間": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "中國因素": {
                 "responded": 0,
                 "addressed": 3,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "動物保護": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "公民權利": {
                 "responded": 0,
                 "addressed": 2,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "教育": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "食品安全": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             }
         },
         "questions": {
@@ -577,7 +577,7 @@
                 "responded": 0,
                 "addressed": 0,
                 "ratio": null,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "遊民": {
                 "responded": 1,
@@ -655,13 +655,13 @@
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "食品安全": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             }
         },
         "questions": {
@@ -731,7 +731,7 @@
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "居住正義": {
                 "responded": 3,
@@ -743,7 +743,7 @@
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "其他": {
                 "responded": 2,
@@ -755,7 +755,7 @@
                 "responded": 0,
                 "addressed": 3,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "勞工": {
                 "responded": 1,
@@ -773,7 +773,7 @@
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "中國因素": {
                 "responded": 1,
@@ -791,7 +791,7 @@
                 "responded": 0,
                 "addressed": 2,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "教育": {
                 "responded": 1,
@@ -803,7 +803,7 @@
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             }
         },
         "questions": {
@@ -861,7 +861,7 @@
                 "responded": 0,
                 "addressed": 0,
                 "ratio": null,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "遊民": {
                 "responded": 1,
@@ -933,7 +933,7 @@
                 "responded": 0,
                 "addressed": 2,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "教育": {
                 "responded": 1,
@@ -945,7 +945,7 @@
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             }
         },
         "questions": {

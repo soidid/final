@@ -9,73 +9,73 @@
                 "responded": 0,
                 "addressed": 2,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "勞工": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "城市發展": {
                 "responded": 0,
                 "addressed": 10,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "黑道": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "其他": {
                 "responded": 0,
                 "addressed": 2,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "交通": {
                 "responded": 0,
                 "addressed": 10,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "藝術人文": {
                 "responded": 0,
                 "addressed": 2,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "環境": {
                 "responded": 0,
                 "addressed": 8,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "食品安全": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "議會透明": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "居住正義": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "酒駕": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             }
         },
         "questions": {
@@ -137,31 +137,31 @@
                 "responded": 0,
                 "addressed": 3,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "勞工": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "城市發展": {
                 "responded": 0,
                 "addressed": 11,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "黑道": {
                 "responded": 0,
                 "addressed": 0,
                 "ratio": null,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "其他": {
                 "responded": 0,
                 "addressed": 2,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "交通": {
                 "responded": 5,
@@ -173,7 +173,7 @@
                 "responded": 0,
                 "addressed": 2,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "環境": {
                 "responded": 2,
@@ -185,13 +185,13 @@
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "議會透明": {
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             },
             "居住正義": {
                 "responded": 1,
@@ -203,7 +203,7 @@
                 "responded": 0,
                 "addressed": 1,
                 "ratio": 0,
-                "color": "bg_red"
+                "color": "bg_gray"
             }
         },
         "questions": {

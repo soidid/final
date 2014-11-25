@@ -76,6 +76,9 @@ app.controller('NavCtrl', ['$scope', '$location', function ($scope, $location){
       $("body").scrollTop(0);
       $location.path(path);
    };
+   $scope.toggleInfo = function(){
+      $scope.showInfo = !$scope.showInfo
+   };
 }]);
 /*
 app.controller('IndexCtrl', ['$scope', 'DataService', '$location', '$sce', function ($scope, DataService, $location, $sce){

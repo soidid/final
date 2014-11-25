@@ -168,8 +168,11 @@ function parse(city){
                     }else if(parsed_candidates[ccid].issues[key].ratio >=40){
                       parsed_candidates[ccid].issues[key].color = 'bg_yellow';
 
-                    }else {
+                    }else if(parsed_candidates[ccid].issues[key].ratio >0){
                       parsed_candidates[ccid].issues[key].color = 'bg_red';
+
+                    }else{
+                      parsed_candidates[ccid].issues[key].color = 'bg_gray';
 
                     }
                 }

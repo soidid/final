@@ -1,5 +1,7 @@
+
 <div id="content">
 <div class="wrapper">
+
 <!--
 <div class="l_center">
     <div class="toggleCategoryQuestionBtn button" ng-click="toggleShowCategoryQuestions()">toggle!</div>
@@ -12,7 +14,7 @@
 -->
  <div ng-class="{'q_label_item_fix':!scroll,'q_label_item_nav':scroll}">
  <div class="wrapper">
-      
+      <div ng-include="'partials/legend.html'"></div>
       <div class="q_item_title_block"><div class="q_label_item_title">問題分類 / 總題數 </div></div>
       <div class="q_item_candidate_block">
           <div class="q_item_candidate" ng-repeat="c in currentCandidates" >

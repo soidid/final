@@ -8,8 +8,7 @@ body {
   padding: 0px;
   text-rendering: optimizeLegibility;
   min-width: 320px;
-  /* background: rgb(236,236,236); */
-  background: #efedeb; 
+  
   color: rgb(55,53,54);
   font-size: 16px;
 
@@ -73,15 +72,71 @@ a {
 .nav_item:hover {
   background: rgba(255,255,255,0.1);
 }
+.nav_info {
+  position: absolute;
+  right: 30px;
+  top: 13px;
+  z-index: 20;
+  font-size: 14px;
+}
+.nav_info_btn {
+  background: rgb(218,213,206);
+  display: inline-block;
+  padding: 2px 20px;
+  cursor: pointer;
+}
+.nav_info_box {
+  position: absolute;
+  top: 35px;
+  right: 0px;
+  width: 320px;
+  height: 200px;
+  border: 2px solid rgb(218,213,206);
+  background: white;
+  padding: 5px;
+}
+.nav_info_remove {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background: rgb(218,213,206);
+  color: white;
+  padding: 0px 5px;
+  vertical-align: top;
+  cursor: pointer;
+}
+.nav_info_list {
+  padding: 4px;
+}
+.nav_info_item {
+  width: 76px;
+  display: inline-block;
+}
+.nav_info_item_candidate {
+  text-align: center;
+  width: 36px;
+  font-size: 12px;
+  display: inline-block;
+}
+.nav_info_item_text {
+  display: inline-block;
+  width: 210px;
+}
+@media screen and (max-width: 500px) {
+  .nav_info {
+    top: 50px;
+    right: 0px;
+    padding: 5px;
+  }
+}
 
 #navigation {
   height: 50px;
-  background: rgba(10,10,10,.8);
-  color: white;
+  background: #F3F2EF;
+  
 }
 #content, #content_tc {
 	margin-top: 80px;
-  background: #efedeb; 
   padding-bottom: 50px;
 
 }
@@ -152,6 +207,7 @@ a {
   width: 40px;
   height: 40px;
   border-radius: 100%;
+  margin-top: 8px;
 }
 .q_item_title_block, .q_item_title_block_tc {
   width: 50%;
@@ -169,7 +225,7 @@ a {
 .q_item_title_topic_name {
   width: 200px;
   display: inline-block;
- 
+
 }
 .q_item_title_topic_count {
   font-size: 16px;
@@ -190,7 +246,6 @@ a {
   left: 0px;
   z-index: 10;
   width: 100%;
-  background: #efedeb; 
   box-sizing: border-box;
 }
 .q_label_item_nav {/* when scrolling */
@@ -199,12 +254,12 @@ a {
   left: 0px;
   z-index: 10;
   width: 100%;
-  background: #efedeb; 
+  background: white;
   border-bottom: 1px solid rgb(55,53,54);
   box-sizing: border-box;
 }
 .q_label_item_title {
-  padding-top: 10px;
+  padding-top: 25px;
   padding-left: 0px;
   font-weight: 700;
   font-size: 22px; 
@@ -237,9 +292,8 @@ a {
 }
 @media screen and (max-width:1000px) {
   #content {
-    margin-top: 120px;
+    margin-top: 110px;
   }
-
   .q_item_title_block, .q_item_candidate_block {
      width: 100%;
      box-sizing: border-box;
@@ -267,13 +321,16 @@ a {
   
 }
 .bg_green {
-  background: #5de05b;
+  background: #4CAF50;
 }
 .bg_yellow {
-  background: #f8e755;
+  background: #FFAB00;
 }
 .bg_red {
   background: #e35656;
+}
+.bg_gray {
+  background: rgb(200,200,200);
 }
 .text_green {
   color: #4CAF50;
