@@ -171,6 +171,7 @@ app.controller('TPCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeP
     }else{
       $scope.focusIssue = name;
     }
+    $scope.focusQuestion = null;
     
   };
   $scope.isFocusIssue = function (name) {
@@ -282,6 +283,7 @@ app.controller('TCCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeP
     }else{
       $scope.focusIssue = name;
     }
+    $scope.focusQuestion = null;
     
   };
   $scope.isFocusIssue = function (name) {
