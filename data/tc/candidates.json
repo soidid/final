@@ -19,7 +19,7 @@
             },
             "城市發展": {
                 "responded": 0,
-                "addressed": 10,
+                "addressed": 9,
                 "ratio": 0,
                 "color": "bg_gray"
             },
@@ -41,7 +41,7 @@
                 "ratio": 0,
                 "color": "bg_gray"
             },
-            "藝術人文": {
+            "文化政策": {
                 "responded": 0,
                 "addressed": 2,
                 "ratio": 0,
@@ -67,7 +67,7 @@
             },
             "居住正義": {
                 "responded": 0,
-                "addressed": 1,
+                "addressed": 2,
                 "ratio": 0,
                 "color": "bg_gray"
             },
@@ -147,7 +147,7 @@
             },
             "城市發展": {
                 "responded": 0,
-                "addressed": 11,
+                "addressed": 10,
                 "ratio": 0,
                 "color": "bg_gray"
             },
@@ -169,7 +169,7 @@
                 "ratio": 50,
                 "color": "bg_yellow"
             },
-            "藝術人文": {
+            "文化政策": {
                 "responded": 0,
                 "addressed": 2,
                 "ratio": 0,
@@ -195,9 +195,9 @@
             },
             "居住正義": {
                 "responded": 1,
-                "addressed": 1,
-                "ratio": 100,
-                "color": "bg_green"
+                "addressed": 2,
+                "ratio": 50,
+                "color": "bg_yellow"
             },
             "酒駕": {
                 "responded": 0,

@@ -78,6 +78,8 @@ function parse(city){
                           choppedResponses[rkey].content = currentResponses[rkey].content;
                           choppedResponses[rkey].id = currentResponses[rkey].id;
                           choppedResponses[rkey].qid = currentResponses[rkey].qid;
+                          var rid = currentResponses[rkey].responser;
+                          choppedResponses[rkey].rname = candidates[rid].name;
                           choppedResponses[rkey].post_timestamp = currentResponses[rkey].postTimeStamp;
                           
                         }
@@ -279,6 +281,6 @@ function parse(city){
 }
 
 //parse('tp');
-//parse('tc');
+parse('tc');
 
 

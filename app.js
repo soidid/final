@@ -222,6 +222,18 @@ app.controller('TPCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeP
 
   };
 
+  $scope.toggleFocusQuestion = function(qid){
+     if($scope.isFocusQuestion(qid)){
+        $scope.focusQuestion = null;
+
+     }else{
+        $scope.focusQuestion = qid;
+     }
+  };
+  $scope.isFocusQuestion = function(qid){
+     return qid === $scope.focusQuestion;
+  };
+
 
 
 }]);
@@ -342,6 +354,17 @@ app.controller('TCCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeP
   $scope.openQuestionInNewWindow =function( qid, cid ) {
       window.open("http://taichung.wethepeople.tw/#!/question/"+qid+'/'+cid);
 
+  };
+   $scope.toggleFocusQuestion = function(qid){
+     if($scope.isFocusQuestion(qid)){
+        $scope.focusQuestion = null;
+
+     }else{
+        $scope.focusQuestion = qid;
+     }
+  };
+  $scope.isFocusQuestion = function(qid){
+     return qid === $scope.focusQuestion;
   };
 
 

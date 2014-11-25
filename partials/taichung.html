@@ -47,7 +47,12 @@
     <!-- display related questions -->
     <div ng-repeat="q in v.list">
       <div class="q_item_inner">
-        <div class="q_item_title_block_tc"><div class="q_item_title">{{questions[q].title | limitTo:40}}{{(questions[q].title.length > 40 ? '...' :  ' ' )}}<span class="q_item_title_votes">（{{questions[q].signatures_count | number:0}} 票）</span></div></div>
+        <div class="q_item_title_block_tc">
+            <div class="q_item_title" ng-click="toggleFocusQuestion(questions[q].id)">{{questions[q].title | limitTo:40}}{{(questions[q].title.length > 40 ? '...' :  ' ' )}}<span class="q_item_title_votes">（{{questions[q].signatures_count | number:0}} 票）</span>
+              <span class="q_item_title_inner_icon" ng-if="!isFocusQuestion(questions[q].id)">  <i class="fa fa-angle-double-down"></i></span>
+              <span class="q_item_title_inner_icon" ng-if="isFocusQuestion(questions[q].id)">  <i class="fa fa-angle-double-up"></i></span>
+            </div>
+        </div>
         <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
             
             <div class="q_candidate_point" ng-click="openQuestionInNewWindow(questions[q].id, c)">
@@ -58,6 +63,16 @@
             <div class="q_candidate_link_box">看回答</div>
              
         </div>
+        <!-- display quesiton full content & responses -->
+        <div class="q_item_content" ng-if="isFocusQuestion(questions[q].id)">
+          <div class="q_item_content_rheader"><div class="q_item_content_ricon">Q</div>提問</div>
+          <p ng-repeat="p in questions[q].content">{{p}}</p>
+          <div ng-repeat="response in questions[q].responses">
+              <div class="q_item_content_rheader"><div class="q_item_content_ricon">A</div>{{response.rname}}</div>
+              <div ng-bind-html="toTrusted(response.content)"></div>
+          </div>
+        </div>
+        <!-- . . . . . . . . . -->
       </div>
     </div>
     <!-- display ngo's campaigns -->

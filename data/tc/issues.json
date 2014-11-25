@@ -21,7 +21,6 @@
             "-JYy55lGk3HUmuSX3tkQ",
             "-JYyOagtw6Uyw3Su6ypO",
             "-JZbdxgV0QrcRMyWbxpX",
-            "-JZSz2vlAaCfOnAhY4U9",
             "-JZ3SNHrpD-V8pDjIane",
             "-JZFMxnOpzdtCvm18lW8",
             "-JYudkPC_u4HZTQ8GXl-",
@@ -82,7 +81,14 @@
         ]
     },
     {
-        "name": "藝術人文",
+        "name": "居住正義",
+        "list": [
+            "-JZSz2vlAaCfOnAhY4U9",
+            "-JZ7CE9JrLbP5ZlNjrWT"
+        ]
+    },
+    {
+        "name": "文化政策",
         "list": [
             "-JZ3HFiNfLdV3ofbr5EX",
             "-JYybK90GiDCSZq-jj8y"
@@ -92,12 +98,6 @@
         "name": "勞工",
         "list": [
             "-JYubso-v_ILR6c4ofmj"
-        ]
-    },
-    {
-        "name": "居住正義",
-        "list": [
-            "-JZ7CE9JrLbP5ZlNjrWT"
         ]
     },
     {
