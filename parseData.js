@@ -36,6 +36,7 @@ function parse(city){
         getData(city+'/candidates').then(function(candidates){
 
             //Save candidates' basic info
+            var num_count = 1;
             currentCandidates.map(function (cid) {
                 
                 var candidate_item = {};
@@ -45,7 +46,11 @@ function parse(city){
                 candidate_item.partyEng = candidates[cid].partyEng;
                 candidate_item.issues = {};
                 candidate_item.questions = {};
+                candidate_item.number = num_count;
+
                 parsed_candidates[cid] = candidate_item;
+                
+                num_count++;
             });
             console.log(currentCandidates);
            
@@ -281,6 +286,6 @@ function parse(city){
 }
 
 //parse('tp');
-parse('tc');
+//parse('tc');
 
 

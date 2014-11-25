@@ -504,6 +504,7 @@ input:checked + .slider::before {
   width: 49%;
   text-align: center;
   font-size: 14px;
+  padding-bottom: 20px;
 }
 @media screen and (max-width: 800px) {
   .profile {
@@ -528,6 +529,33 @@ input:checked + .slider::before {
   margin-right: 5px;
   width: 50%;
   text-align: right;
+}
+.index_button {
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -webkit-transition: .2s;
+  transition: .2s;
+  background: #e35656;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px rgba(0,0,0,.2);
+  color: #fff;
+  display: inline-block;
+  font-size: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 12px;
+  cursor: pointer;
+  min-width: 70px;
+  text-align: center;
+  margin-top: 10px;
+}
+/* ---- */
+.index_c_item {
+  display: inline-block;
+  width: 120px;
+}
+.index_c_img {
+  width: 112px;
 }
 
 

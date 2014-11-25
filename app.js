@@ -45,7 +45,8 @@ app.config(['$routeProvider','$locationProvider',
     }).
       otherwise({
       redirectTo:'/',
-      templateUrl: 'partials/index.html'
+      templateUrl: 'partials/index.html',
+      controller: 'IndexCtrl'
     });
 
     //$locationProvider.html5Mode(true);
@@ -84,26 +85,27 @@ app.controller('NavCtrl', ['$scope', '$location', function ($scope, $location){
    };
 
 }]);
-/*
+
 app.controller('IndexCtrl', ['$scope', 'DataService', '$location', '$sce', function ($scope, DataService, $location, $sce){
-  
-  DataService.getData('parsed_issues').then(function(data){
-      $scope.issues = data;
+  DataService.getData('tp/candidates').then(function(data){
+      $scope.tp_candidates = [];
+      for(var key in data){
+        $scope.tp_candidates.push(data[key]);
+
+      }
   });
+  DataService.getData('tc/candidates').then(function(data){
+      $scope.tc_candidates = [];
+      for(var key in data){
+        $scope.tc_candidates.push(data[key]);
 
-  $scope.candidateFilter = function(n){
-      if(n.state === 'responded')
-         return n;
-  };
-
-  $scope.go = function(path){
-      $("body").scrollTop(0);
-      $location.path(path);
-  };
+      }
+  });
+ 
 
 
 }]);
-*/
+
 app.controller('TPCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeParams', function ($scope, DataService, $location, $sce, $routeParams){
   
 
