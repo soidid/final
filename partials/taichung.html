@@ -14,7 +14,10 @@
  <div ng-class="{'q_label_item_fix':!scroll,'q_label_item_nav':scroll}">
  <div class="wrapper">
       
-      <div class="q_item_title_block_tc"><div class="q_label_item_title">問題分類 / 總題數 </div></div>
+      <div class="q_item_title_block_tc">
+          <div class="q_label_item_title">問題分類 / 總題數 </div>
+          <div class="q_label_item_meta">連署門檻為 200 票</div>
+      </div>
       <div class="q_item_candidate_block_tc">
           <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
               <div class="q_item_candidate_name">{{candidates[c].name}}</div>
