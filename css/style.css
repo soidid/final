@@ -221,6 +221,9 @@ a {
 .q_item_title {
   padding-left: 10px;
 }
+.q_item_title_votes {
+  color: rgb(150,150,150);
+}
 .q_item_title_topic {
   cursor: pointer;
   font-size: 18px;

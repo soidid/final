@@ -48,7 +48,8 @@
     <!-- display related questions -->
     <div ng-repeat="q in v.list">
       <div class="q_item_inner">
-        <div class="q_item_title_block"><div class="q_item_title">{{questions[q].title | limitTo:40}}{{(questions[q].title.length > 40 ? '...' :  ' ' )}}</div></div>
+        <div class="q_item_title_block">
+        <div class="q_item_title">{{questions[q].title | limitTo:40}}{{(questions[q].title.length > 40 ? '...' :  ' ' )}}<span class="q_item_title_votes">（{{questions[q].signatures_count | number:0}} 票）</span></div></div>
         <div class="q_item_candidate" ng-repeat="c in currentCandidates" >
             
             <div class="q_candidate_point" ng-click="openQuestionInNewWindow(questions[q].id, c)">
@@ -58,6 +59,7 @@
             </div>
              
         </div>
+        
       </div>
     </div>
     <!-- display ngo's campaigns -->
