@@ -558,6 +558,10 @@ input:checked + .slider::before {
   width: 100%;
   text-align: left;
 }
+.profile_text {
+  max-width: 40%;
+  display: inline-block;
+}
 .profile_count {
   font-size: 30px;
   color: #e35656;
