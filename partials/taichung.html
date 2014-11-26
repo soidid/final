@@ -82,7 +82,7 @@
     </div>
     <!-- display ngo's campaigns -->
     <div class="q_item_ngo"  ng-if="v.ngo">
-        <div class="q_item_ngo_title">各種表態：</div>
+        <div class="q_item_ngo_title">更多表態整理：</div>
         <ul>
             <li ng-repeat="ngo in v.ngo"><a href="{{ngo.link}}" target="_new">{{ngo.title}}</a></li>     
         </ul>
@@ -91,7 +91,7 @@
     </div>
  
 </div>
-
+<div ng-include="'partials/footer_legend.html'"></div>
 </div>
 </div>
 
