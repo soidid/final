@@ -178,7 +178,7 @@ app.controller('TPCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeP
     return $scope.focusIssue === name;
   };
   
-  /*
+  
   window.onscroll = function() {
       var scrollTop = document.body.scrollTop;
       console.log(scrollTop);
@@ -196,7 +196,7 @@ app.controller('TPCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeP
          
     
   };
-  */
+  
 
   $scope.openQuestionInNewWindow =function( qid, cid ) {
       window.open("http://taipei.wethepeople.tw/#!/question/"+qid+'/'+cid);
@@ -289,7 +289,7 @@ app.controller('TCCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeP
   $scope.isFocusIssue = function (name) {
     return $scope.focusIssue === name;
   };
-  /*
+ 
   window.onscroll = function() {
       var scrollTop = document.body.scrollTop;
       console.log(scrollTop);
@@ -307,7 +307,7 @@ app.controller('TCCtrl', ['$scope', 'DataService', '$location', '$sce', '$routeP
          
     
   };
-  */
+  
 
   $scope.openQuestionInNewWindow =function( qid, cid ) {
       window.open("http://taichung.wethepeople.tw/#!/question/"+qid+'/'+cid);

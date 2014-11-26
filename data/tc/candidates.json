@@ -17,9 +17,9 @@
                 "ratio": 0,
                 "color": "bg_gray"
             },
-            "城市發展": {
+            "文史保存": {
                 "responded": 0,
-                "addressed": 9,
+                "addressed": 4,
                 "ratio": 0,
                 "color": "bg_gray"
             },
@@ -32,6 +32,12 @@
             "其他": {
                 "responded": 0,
                 "addressed": 2,
+                "ratio": 0,
+                "color": "bg_gray"
+            },
+            "城市發展": {
+                "responded": 0,
+                "addressed": 5,
                 "ratio": 0,
                 "color": "bg_gray"
             },
@@ -147,9 +153,9 @@
                 "ratio": 0,
                 "color": "bg_gray"
             },
-            "城市發展": {
+            "文史保存": {
                 "responded": 0,
-                "addressed": 10,
+                "addressed": 4,
                 "ratio": 0,
                 "color": "bg_gray"
             },
@@ -162,6 +168,12 @@
             "其他": {
                 "responded": 0,
                 "addressed": 2,
+                "ratio": 0,
+                "color": "bg_gray"
+            },
+            "城市發展": {
+                "responded": 0,
+                "addressed": 6,
                 "ratio": 0,
                 "color": "bg_gray"
             },
