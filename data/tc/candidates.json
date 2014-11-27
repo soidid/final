@@ -154,10 +154,10 @@
                 "color": "bg_gray"
             },
             "文史保存": {
-                "responded": 0,
+                "responded": 1,
                 "addressed": 4,
-                "ratio": 0,
-                "color": "bg_gray"
+                "ratio": 25,
+                "color": "bg_red"
             },
             "黑道": {
                 "responded": 0,
@@ -228,7 +228,7 @@
             "-JYxUz1GiUVHMubD9AF9": "pending",
             "-JYy55lGk3HUmuSX3tkQ": "pending",
             "-JYy9GrG3ZzhypEyQ-e7": "responded",
-            "-JYyBRPVIv2KSprPxTO0": "pending",
+            "-JYyBRPVIv2KSprPxTO0": "responded",
             "-JYyOagtw6Uyw3Su6ypO": "pending",
             "-JYyRjQd5d35sm_TKDoK": "pending",
             "-JYyWe9p6UK92piQfuzB": "pending",
@@ -269,6 +269,6 @@
         "number": 2,
         "role": "台中市長參選人",
         "addressed": 41,
-        "responded": 8
+        "responded": 9
     }
 }

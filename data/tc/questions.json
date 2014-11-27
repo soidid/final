@@ -15,7 +15,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 227,
+        "signatures_count": 231,
         "signatures_threshold": 200,
         "category": [
             "性別",
@@ -39,7 +39,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 220,
+        "signatures_count": 223,
         "signatures_threshold": 200,
         "category": [
             "勞工",
@@ -62,7 +62,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 219,
+        "signatures_count": 222,
         "signatures_threshold": 200,
         "category": [
             "都市更新",
@@ -83,7 +83,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 212,
+        "signatures_count": 214,
         "signatures_threshold": 200,
         "category": [
             "社會保障",
@@ -107,7 +107,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 210,
+        "signatures_count": 211,
         "signatures_threshold": 200,
         "category": [
             "環境"
@@ -133,7 +133,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 216,
+        "signatures_count": 219,
         "signatures_threshold": 200,
         "category": [
             "居住",
@@ -157,10 +157,10 @@
                 "downVotesCount": 6,
                 "response_timestamp": 1414565782287,
                 "state": "responded",
-                "upVotesCount": 36
+                "upVotesCount": 37
             }
         },
-        "signatures_count": 263,
+        "signatures_count": 269,
         "signatures_threshold": 200,
         "category": [
             "交通運輸"
@@ -189,16 +189,26 @@
             },
             "-JY-qc8Jc6nzMY8-NovP": {
                 ".priority": 1,
-                "state": "pending"
+                "response_timestamp": 1417061487191,
+                "state": "responded"
             }
         },
-        "signatures_count": 257,
+        "signatures_count": 262,
         "signatures_threshold": 200,
         "category": [
             "都市更新",
             "藝術與人文",
             "土地"
-        ]
+        ],
+        "responses": {
+            "0": {
+                "content": "<p>大台中合併後有許多重要的文化資產需要重視及保護，市政府應更積極主動維護台中珍貴的文化資產，避免在市地重劃的過程中，一再發生毀壞聚落古蹟或文化景觀的情形發生。</p>\n\n<p>遺憾的是，台中市政府在過去十三年來，對於台中市文化資產的維護不夠積極，例如，曾在清朝嘉慶道光年間被列為「彰化八景之一」，且曾有「龍井觀泉」之稱的「龍目井」，日前就遭民眾發現，該處已被水泥化的水池造景乾枯，甚至淪為民眾的曬衣場，但市府與國產署卻互踢皮球，任其荒廢。此外，台中市南屯區的市定古蹟「瑞成堂」，因位在重劃區的道路用地，竟遭到當地重劃會蓄意破壞。</p>\n\n<p>若能當選市長，佳龍將以更積極的態度，主動保存文化資產，如中社遺址等，並將市定古蹟台中州廳提報為國定古蹟，以及將牛罵頭市定遺址爭取升格為國定遺址。此外，未來也會以文化保存做為土地規劃利用的重要考量項目。而私部門擁有的文化資產，市政府也會協助委託NPO組織進行活化與保存。</p>\n\n<p>除了已被建檔的古蹟與遺址以外，值得注意的是，台中地區也有許多頗具歷史價值的古宅。舉例來說，佳龍日前曾走訪大甲地區的「梁氏古宅」，該處興建於1914年，至今剛好100年，占地約1400坪，是中台灣現存少數規模宏大且保存完整的傳統宅邸之一。古宅除了能夠凝聚家族情感與認同，也是觀察一個地方過往生活模式的時空膠囊。因此，古宅的保存、維護，以及進一步的活化運用，也是文化資產政策中不可或缺的一環。</p>\n\n<p>佳龍相信懂得保存歷史文化的城市，才能保有這個城市的集體記憶與美學基礎。對於歷史建物及場域，台中應以前瞻的角度、國際化的方向來擬定策略。因此，佳龍提出四大推動方向：文化博物館、文化外交、打造藝文創作育成的基地。</p>\n\n<p>第一，推動增設大台中城市文化博物館。台中有豐富的史前文化、遺址、古蹟、聚落與文化景觀。包括牛罵頭、惠來、中社遺址等，其珍貴的歷史文物，由於沒有適當的展示空間，目前主要保存在科學博物館。未來應有相應的城市文化博物館，提供典藏、展示，以補現地保存之不足，並提供研究和教育推廣之責。</p>\n\n<p>第二，文化外交部份，推動「亞洲文化資產交流城市聯盟」，讓台中市和亞洲各城市進行更緊密的文化外交，增進彼此的文化內涵，並推動文化觀光，讓更多外國觀光客看見台中的文化之美。</p>\n\n<p>第三，台中有許多獨特的歷史性建物，如台中州廳、台中市役所、台中放送局、光復新村和審計新村等，這些公共空間具有特殊的「都市歷史氛圍」，未來應善加利用，打造成為藝文創作育成的基地、提供作為藝術家或文創人發揮的舞台，也讓台中的文化藝術更加蓬勃璀璨。</p>\n\n<p>第四，將仿效英國，設置文化資產保存信託基金，推動通過「文化資產信託及再利用辦法」自治條例，以2至4億的預算規模，協助公部門保存文化資產，推動文化經濟永續再利用。另一方面，私部門擁有的文化資產，則可協助委託NPO組織進行文資再生產。</p>\n",
+                "id": "-JbjRHLcgLSA6V5KpEhg",
+                "qid": "-JYyBRPVIv2KSprPxTO0",
+                "rname": "林佳龍",
+                "post_timestamp": 1417061487191
+            }
+        }
     },
     "-JYyOagtw6Uyw3Su6ypO": {
         "id": "-JYyOagtw6Uyw3Su6ypO",
@@ -216,7 +226,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 231,
+        "signatures_count": 235,
         "signatures_threshold": 200,
         "category": [
             "都市更新",
@@ -239,7 +249,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 238,
+        "signatures_count": 241,
         "signatures_threshold": 200,
         "category": [
             "交通運輸"
@@ -262,7 +272,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 233,
+        "signatures_count": 235,
         "signatures_threshold": 200,
         "category": [
             "土地",
@@ -288,7 +298,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 206,
+        "signatures_count": 208,
         "signatures_threshold": 200,
         "category": [
             "都市更新",
@@ -313,7 +323,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 209,
+        "signatures_count": 211,
         "signatures_threshold": 200,
         "category": [
             "藝術與人文",
@@ -335,10 +345,10 @@
                 ".priority": 1,
                 "response_timestamp": 1416382732631,
                 "state": "responded",
-                "upVotesCount": 4
+                "upVotesCount": 7
             }
         },
-        "signatures_count": 220,
+        "signatures_count": 224,
         "signatures_threshold": 200,
         "category": [
             "都市更新",
@@ -370,13 +380,13 @@
             },
             "-JY-qc8Jc6nzMY8-NovP": {
                 ".priority": 1,
-                "downVotesCount": 51,
+                "downVotesCount": 52,
                 "response_timestamp": 1414650598723,
                 "state": "responded",
-                "upVotesCount": 22
+                "upVotesCount": 25
             }
         },
-        "signatures_count": 302,
+        "signatures_count": 308,
         "signatures_threshold": 200,
         "category": [
             "土地",
@@ -410,7 +420,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 220,
+        "signatures_count": 222,
         "signatures_threshold": 200,
         "category": [
             "農業",
@@ -432,7 +442,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 205,
+        "signatures_count": 208,
         "signatures_threshold": 200,
         "category": [
             "制度改革",
@@ -456,10 +466,10 @@
                 "downVotesCount": 2,
                 "response_timestamp": 1413899331559,
                 "state": "responded",
-                "upVotesCount": 111
+                "upVotesCount": 112
             }
         },
-        "signatures_count": 313,
+        "signatures_count": 316,
         "signatures_threshold": 200,
         "category": [
             "土地",
@@ -493,7 +503,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 241,
+        "signatures_count": 244,
         "signatures_threshold": 200,
         "category": [
             "開放政府"
@@ -516,7 +526,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 243,
+        "signatures_count": 246,
         "signatures_threshold": 200,
         "category": [
             "藝術與人文"
@@ -534,7 +544,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 210,
+        "signatures_count": 214,
         "signatures_threshold": 200,
         "category": [
             "預算和稅收",
@@ -559,7 +569,7 @@
                 "upVotesCount": 44
             }
         },
-        "signatures_count": 288,
+        "signatures_count": 291,
         "signatures_threshold": 200,
         "category": [
             "交通運輸"
@@ -591,7 +601,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 211,
+        "signatures_count": 213,
         "signatures_threshold": 200,
         "category": [
             "公民權利和自由",
@@ -622,7 +632,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 211,
+        "signatures_count": 213,
         "signatures_threshold": 200,
         "category": [
             "居住",
@@ -643,13 +653,13 @@
             },
             "-JY-qc8Jc6nzMY8-NovP": {
                 ".priority": 1,
-                "downVotesCount": 17,
+                "downVotesCount": 18,
                 "response_timestamp": 1414136409194,
                 "state": "responded",
-                "upVotesCount": 27
+                "upVotesCount": 30
             }
         },
-        "signatures_count": 301,
+        "signatures_count": 308,
         "signatures_threshold": 200,
         "category": [
             "居住",
@@ -681,7 +691,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 208,
+        "signatures_count": 211,
         "signatures_threshold": 200,
         "category": [
             "交通運輸"
@@ -705,7 +715,7 @@
                 "upVotesCount": 7
             }
         },
-        "signatures_count": 209,
+        "signatures_count": 214,
         "signatures_threshold": 200,
         "category": [
             "居住",
@@ -738,7 +748,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 366,
+        "signatures_count": 372,
         "signatures_threshold": 200,
         "category": [
             "環境",
@@ -759,12 +769,13 @@
             },
             "-JY-qc8Jc6nzMY8-NovP": {
                 ".priority": 1,
+                "downVotesCount": 2,
                 "response_timestamp": 1416382571124,
                 "state": "responded",
-                "upVotesCount": 8
+                "upVotesCount": 9
             }
         },
-        "signatures_count": 213,
+        "signatures_count": 216,
         "signatures_threshold": 200,
         "category": [
             "環境"
@@ -795,7 +806,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 205,
+        "signatures_count": 207,
         "signatures_threshold": 200,
         "category": [
             "人權"
@@ -817,7 +828,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 201,
+        "signatures_count": 202,
         "signatures_threshold": 200,
         "category": [
             "環境"
@@ -844,7 +855,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 202,
+        "signatures_count": 203,
         "signatures_threshold": 200,
         "category": [
             "刑事司法和執法",
@@ -876,7 +887,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 248,
+        "signatures_count": 249,
         "signatures_threshold": 200,
         "category": [
             "交通運輸",
@@ -895,7 +906,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 231,
+        "signatures_count": 234,
         "signatures_threshold": 200,
         "category": [
             "環境",
@@ -924,7 +935,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 223,
+        "signatures_count": 228,
         "signatures_threshold": 200,
         "category": [
             "環境"
@@ -947,7 +958,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 208,
+        "signatures_count": 209,
         "signatures_threshold": 200,
         "category": [
             "居住",
@@ -971,7 +982,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 218,
+        "signatures_count": 219,
         "signatures_threshold": 200,
         "category": [
             "土地",
@@ -995,7 +1006,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 201,
+        "signatures_count": 204,
         "signatures_threshold": 200,
         "category": [
             "農業",
@@ -1019,7 +1030,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 202,
+        "signatures_count": 204,
         "signatures_threshold": 200,
         "category": [
             "都市更新",
@@ -1043,7 +1054,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 203,
+        "signatures_count": 204,
         "signatures_threshold": 200,
         "category": [
             "環境",
@@ -1067,7 +1078,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 210,
+        "signatures_count": 211,
         "signatures_threshold": 200,
         "category": [
             "都市更新",
@@ -1094,7 +1105,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 210,
+        "signatures_count": 212,
         "signatures_threshold": 200,
         "category": [
             "居住",
@@ -1143,7 +1154,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 213,
+        "signatures_count": 214,
         "signatures_threshold": 200,
         "category": [
             "性別",
@@ -1170,7 +1181,7 @@
                 "state": "pending"
             }
         },
-        "signatures_count": 335,
+        "signatures_count": 360,
         "signatures_threshold": 200,
         "category": [
             "環境",
