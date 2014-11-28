@@ -101,8 +101,10 @@ app.controller('IndexCtrl', ['$scope', 'DataService', '$location', '$sce', funct
           }
       });
   });
-  
- 
+  if(window.innerWidth > 500)
+      $scope.cover = 'images/cover_large.jpg';
+  else
+      $scope.cover = 'images/cover_small.jpg';
 
 
 }]);
